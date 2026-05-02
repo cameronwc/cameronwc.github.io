@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark">
+  <title>Preplate — Privacy Policy</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg: #1c1c1e;
+      --surface: #25252a;
+      --text: #e0e0e0;
+      --muted: #9a9aa0;
+      --green: #4caf50;
+      --green-dim: rgba(76, 175, 80, 0.15);
+      --border: #333338;
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 48px 24px 96px;
+    }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+
+    header img {
+      width: 72px;
+      height: 72px;
+      border-radius: 16px;
+      flex-shrink: 0;
+    }
+
+    header .title {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+
+    h1 {
+      font-size: 28px;
+      font-weight: 700;
+      margin: 0;
+      letter-spacing: -0.01em;
+    }
+
+    .eyebrow {
+      color: var(--green);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: var(--green);
+      font-size: 18px;
+      font-weight: 600;
+      margin: 36px 0 8px;
+      letter-spacing: -0.005em;
+    }
+
+    p, li {
+      color: var(--text);
+    }
+
+    p { margin: 0 0 12px; }
+
+    ul {
+      margin: 0 0 12px;
+      padding-left: 22px;
+    }
+    li { margin-bottom: 6px; }
+
+    a {
+      color: var(--green);
+      text-decoration: none;
+    }
+    a:hover { text-decoration: underline; }
+
+    code {
+      background: var(--green-dim);
+      color: var(--green);
+      padding: 2px 6px;
+      border-radius: 4px;
+      font-size: 14px;
+      font-family: ui-monospace, "SF Mono", Menlo, monospace;
+    }
+
+    .meta {
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .updated {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    @media (max-width: 480px) {
+      main { padding: 32px 20px 64px; }
+      h1 { font-size: 24px; }
+      header img { width: 56px; height: 56px; border-radius: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Preplate logo">
+      <div class="title">
+        <span class="eyebrow">Preplate</span>
+        <h1>Privacy Policy</h1>
+      </div>
+    </header>
+
+    <h2>Overview</h2>
+    <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. We take your privacy seriously and have built the app to keep your data on your devices and inside your iCloud account whenever possible. This page explains exactly what data the app handles and why.</p>
+
+    <h2>Data We Collect</h2>
+    <p>Your recipes, meal plans, shopping lists, household preferences, and macro targets are stored locally on your device using Apple's SwiftData framework. If you enable iCloud sync, that same data is mirrored to your private CloudKit database so it syncs across devices you sign into with the same Apple ID. We do not operate any servers and we do not have access to anything in your iCloud account.</p>
+
+    <h2>Health Data</h2>
+    <p>Preplate writes nutrition data — calories, protein, carbohydrates, and fat — to Apple Health when you tap "Log Meal." The app never reads from Apple Health and never transmits health data off your device. You can revoke this access at any time in iOS Settings → Health → Data Access &amp; Devices → Preplate.</p>
+
+    <h2>Advertising</h2>
+    <p>The free tier of Preplate displays banner advertisements from Google AdMob. iOS will ask whether you want to allow tracking the first time the app needs it; if you decline, AdMob serves you non-personalized ads. Premium subscribers see no ads at all. For details on what data Google receives, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising privacy policy</a>.</p>
+
+    <h2>In-App Purchases</h2>
+    <p>Premium subscriptions and the lifetime upgrade are processed entirely by Apple via StoreKit. Apple handles your payment information; Cooper Industries never sees your billing details, payment method, or Apple ID.</p>
+
+    <h2>Analytics</h2>
+    <p>None. Preplate does not include any third-party analytics SDKs, crash reporters, or usage trackers. We do not log how you use the app, which screens you visit, or which features you tap.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not sell, rent, or share your data with anyone, with one exception: the AdMob banners described above receive the standard request data Google needs to serve an ad. We do not share recipes, meal plans, shopping lists, or any other content you create.</p>
+
+    <h2>Household Sharing</h2>
+    <p>If you invite household members to share recipes, meal plans, and shopping lists, sync happens peer-to-peer through CloudKit using Apple's <code>CKShare</code> mechanism. Cooper Industries has no access to shared data — it travels directly between iCloud accounts you authorize.</p>
+
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>Deleting Preplate from your device removes all locally stored data. To remove iCloud-synced data, sign into iCloud at <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a> or open iOS Settings → your name → iCloud → Manage Account Storage → Preplate → Delete.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Preplate is not directed to children under 13 and we do not knowingly collect data from anyone under 13.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or concerns? Email <a href="mailto:cameron@cooperindustries.dev">cameron@cooperindustries.dev</a>.</p>
+
+    <div class="updated">
+      <span>Last updated: May 1, 2026</span>
+      <span>Cooper Industries · Preplate iOS</span>
+    </div>
+  </main>
+</body>
+</html>
