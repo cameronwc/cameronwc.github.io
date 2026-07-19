@@ -1,3 +1,8 @@
-# Authorized AdMob inventory for Preplate (cooperindustries.Preplate).
-# Publisher ID derived from the AdMob App ID ca-app-pub-2805817840679215~…
+# Authorized AdMob inventory for all Cooper Industries iOS apps.
+# A single publisher ID covers every app on the AdMob account:
+#   Preplate (cooperindustries.Preplate) — app ID ca-app-pub-2805817840679215~7282302251
+#   LEAP     (cooperindustries.Leap)     — app ID ca-app-pub-2805817840679215~2993431820
+#
+# For AdMob to find this file, each app's App Store listing must set its
+# marketing / developer website to https://cameronwc.github.io
 google.com, pub-2805817840679215, DIRECT, f08c47fec0942fa0

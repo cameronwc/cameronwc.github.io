@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-  <meta name="color-scheme" content="dark">
+  <meta name="color-scheme" content="dark light">
   <title>Preplate — Privacy Policy</title>
   <link rel="icon" type="image/png" href="logo.png">
   <style>
@@ -15,6 +15,17 @@
       --green: #4caf50;
       --green-dim: rgba(76, 175, 80, 0.15);
       --border: #333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f5f5f7;
+        --surface: #ffffff;
+        --text: #1c1c1e;
+        --muted: #6b6b70;
+        --green: #2e7d32;
+        --green-dim: rgba(46, 125, 50, 0.12);
+        --border: #e0e0e5;
+      }
     }
 
     * { box-sizing: border-box; }
@@ -30,11 +41,7 @@
       -webkit-font-smoothing: antialiased;
     }
 
-    main {
-      max-width: 720px;
-      margin: 0 auto;
-      padding: 48px 24px 96px;
-    }
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
 
     header {
       display: flex;
@@ -45,25 +52,10 @@
       margin-bottom: 32px;
     }
 
-    header img {
-      width: 72px;
-      height: 72px;
-      border-radius: 16px;
-      flex-shrink: 0;
-    }
+    header img { width: 72px; height: 72px; border-radius: 16px; flex-shrink: 0; }
+    header .title { display: flex; flex-direction: column; gap: 2px; }
 
-    header .title {
-      display: flex;
-      flex-direction: column;
-      gap: 2px;
-    }
-
-    h1 {
-      font-size: 28px;
-      font-weight: 700;
-      margin: 0;
-      letter-spacing: -0.01em;
-    }
+    h1 { font-size: 28px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
 
     .eyebrow {
       color: var(--green);
@@ -81,22 +73,15 @@
       letter-spacing: -0.005em;
     }
 
-    p, li {
-      color: var(--text);
-    }
+    h3 { font-size: 16px; font-weight: 600; margin: 20px 0 6px; }
 
+    p, li { color: var(--text); }
     p { margin: 0 0 12px; }
 
-    ul {
-      margin: 0 0 12px;
-      padding-left: 22px;
-    }
+    ul { margin: 0 0 12px; padding-left: 22px; }
     li { margin-bottom: 6px; }
 
-    a {
-      color: var(--green);
-      text-decoration: none;
-    }
+    a { color: var(--green); text-decoration: none; }
     a:hover { text-decoration: underline; }
 
     code {
@@ -108,10 +93,20 @@
       font-family: ui-monospace, "SF Mono", Menlo, monospace;
     }
 
-    .meta {
-      color: var(--muted);
-      font-size: 14px;
+    .table-wrap { overflow-x: auto; margin: 0 0 16px; }
+    table { border-collapse: collapse; width: 100%; font-size: 14px; min-width: 460px; }
+    th, td { text-align: left; padding: 9px 12px; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--green); font-weight: 600; }
+
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--green);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 0 0 16px;
     }
+    .callout p:last-child { margin-bottom: 0; }
 
     .updated {
       margin-top: 48px;
@@ -142,40 +137,90 @@
     </header>
 
     <h2>Overview</h2>
-    <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. We take your privacy seriously and have built the app to keep your data on your devices and inside your iCloud account whenever possible. This page explains exactly what data the app handles and why.</p>
+    <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. Your meal data is stored on your device and in your own iCloud account. Some features send information to third-party services in order to work — the AI features, the food databases, and the grocery store lookup all require a network request. This page explains exactly what is sent, to whom, and when.</p>
 
-    <h2>Data We Collect</h2>
-    <p>Your recipes, meal plans, shopping lists, household preferences, and macro targets are stored locally on your device using Apple's SwiftData framework. If you enable iCloud sync, that same data is mirrored to your private CloudKit database so it syncs across devices you sign into with the same Apple ID. We do not operate any servers and we do not have access to anything in your iCloud account.</p>
+    <div class="callout">
+      <p><strong>The short version:</strong> we do not operate servers and we never receive your data ourselves. We show ads through Google AdMob, and several optional features send data directly from your device to third-party APIs — most notably Google's Gemini AI, which powers the coach, photo logging, and menu scanning. We do not sell your data and we run no analytics or tracking SDKs.</p>
+    </div>
 
-    <h2>Health Data</h2>
-    <p>Preplate writes nutrition data — calories, protein, carbohydrates, and fat — to Apple Health when you tap "Log Meal." The app never reads from Apple Health and never transmits health data off your device. You can revoke this access at any time in iOS Settings → Health → Data Access &amp; Devices → Preplate.</p>
+    <h2>What Stays on Your Device</h2>
+    <p>Your recipes, meal plans, shopping lists, food logs, weight entries, water intake, household preferences, and macro targets are stored locally using Apple's SwiftData framework. If iCloud is enabled on your device, that data also syncs to your private CloudKit database so it is available across devices signed into the same Apple ID. This is your iCloud account — Cooper Industries has no access to it.</p>
+
+    <h2>Apple Health</h2>
+    <p><strong>Preplate writes</strong> the nutrition of every food you log — calories, protein, carbohydrates, and fat — to Apple Health as a Food entry. This happens automatically each time you log a food.</p>
+    <p><strong>Preplate can also read</strong> your step count, active energy burned, and body weight from Apple Health, so the dashboard can show your activity and keep your weight trend current from a connected scale or watch. Reading is <strong>off by default</strong> and only happens if you turn it on in Settings → Apple Health.</p>
+    <p>Health data read from Apple Health stays on your device and in your private iCloud database. It is never sent to advertisers. Note that if you use the AI coach, the coach's context includes your recent weight entries and food logs — see the AI section below. You can revoke Health access at any time in iOS Settings → Health → Data Access &amp; Devices → Preplate.</p>
+
+    <h2>AI Features (Google Gemini)</h2>
+    <p>Several Preplate features are powered by Google's Gemini API. When you use them, data is sent from your device directly to Google. Cooper Industries does not receive or store a copy.</p>
+
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Feature</th><th>What is sent to Google</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>AI coach chat</td><td>Your message, plus context about you: macro targets, household size, food preferences, recent weight entries and weight trend, up to 14 days of food logs, water intake, your current meal plan, and your recipe titles</td></tr>
+          <tr><td>Meal photo logging</td><td>The meal photo you take or select, plus any description you type</td></tr>
+          <tr><td>Menu scanning</td><td>The menu photo, plus your remaining calories and macros for the day</td></tr>
+          <tr><td>"Describe" food entry</td><td>The food description you type</td></tr>
+          <tr><td>AI meal plan generation</td><td>Your plan request, household size, and recipe library entries</td></tr>
+          <tr><td>Recipe import from a URL</td><td>The text of the recipe page you are importing</td></tr>
+          <tr><td>Shopping list generation</td><td>Your shopping list items and quantities, used to merge duplicate entries</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The shopping list item cleanup runs automatically whenever a shopping list is generated. Everything else in this table happens only when you actively use that feature. If you prefer not to send data to Google, avoid the coach, photo logging, menu scanning, and AI meal planning — the rest of the app works without them.</p>
+    <p>Google's handling of this data is governed by the <a href="https://ai.google.dev/gemini-api/terms" target="_blank" rel="noopener">Gemini API terms</a> and the <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google Privacy Policy</a>.</p>
+
+    <h2>Food and Grocery Databases</h2>
+    <div class="table-wrap">
+      <table>
+        <thead>
+          <tr><th>Service</th><th>What is sent</th><th>When</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>USDA FoodData Central</td><td>Your food search terms</td><td>You search for a food</td></tr>
+          <tr><td>Open Food Facts</td><td>The product barcode you scan</td><td>You scan a barcode</td></tr>
+          <tr><td>Kroger</td><td>The ZIP code you type, and your shopping list item names</td><td>You search for a store or view your list by aisle</td></tr>
+          <tr><td>Spoonacular</td><td>Recipe titles, to find matching photos</td><td>Recipe images are filled in</td></tr>
+          <tr><td>Recipe websites</td><td>A direct request to the URL you paste, which reveals your IP address to that site</td><td>You import a recipe from a URL</td></tr>
+        </tbody>
+      </table>
+    </div>
+    <p>The ZIP code you enter for store lookup is typed by you and is used only to find nearby stores. Preplate does not use iOS Location Services and never reads your device's GPS position.</p>
 
     <h2>Advertising</h2>
-    <p>The free tier of Preplate displays banner advertisements from Google AdMob. iOS will ask whether you want to allow tracking the first time the app needs it; if you decline, AdMob serves you non-personalized ads. Premium subscribers see no ads at all. For details on what data Google receives, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising privacy policy</a>.</p>
+    <p>The free tier of Preplate displays banner advertisements from Google AdMob. iOS will ask whether you want to allow tracking; if you decline, AdMob serves non-personalized ads. If you allow it, your device's advertising identifier (IDFA) is shared with Google for personalized advertising. Premium subscribers see no ads at all. For details on what Google receives, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising privacy policy</a>.</p>
+    <p>Ads are never shown alongside, and are never targeted using, your health or nutrition data.</p>
 
     <h2>In-App Purchases</h2>
-    <p>Premium subscriptions and the lifetime upgrade are processed entirely by Apple via StoreKit. Apple handles your payment information; Cooper Industries never sees your billing details, payment method, or Apple ID.</p>
+    <p>Premium subscriptions are processed entirely by Apple via StoreKit. Apple handles your payment information; Cooper Industries never sees your billing details, payment method, or Apple ID.</p>
 
     <h2>Analytics</h2>
-    <p>None. Preplate does not include any third-party analytics SDKs, crash reporters, or usage trackers. We do not log how you use the app, which screens you visit, or which features you tap.</p>
+    <p>None. Preplate contains no third-party analytics SDKs, crash reporters, or usage trackers. We do not log how you use the app, which screens you visit, or which features you tap. The only advertising or tracking technology in the app is Google AdMob, described above.</p>
 
     <h2>Data Sharing</h2>
-    <p>We do not sell, rent, or share your data with anyone, with one exception: the AdMob banners described above receive the standard request data Google needs to serve an ad. We do not share recipes, meal plans, shopping lists, or any other content you create.</p>
+    <p>We do not sell or rent your data. Data leaves your device only to the third-party services named on this page, and only for the purpose described. We never share your recipes, meal plans, food logs, or weight data with advertisers.</p>
 
     <h2>Household Sharing</h2>
-    <p>If you invite household members to share recipes, meal plans, and shopping lists, sync happens peer-to-peer through CloudKit using Apple's <code>CKShare</code> mechanism. Cooper Industries has no access to shared data — it travels directly between iCloud accounts you authorize.</p>
+    <p>If you invite household members to share recipes, meal plans, and shopping lists, sync happens through CloudKit using Apple's <code>CKShare</code> mechanism. Cooper Industries has no access to shared data — it travels directly between the iCloud accounts you authorize. Your personal profile, food logs, and weight entries are not part of household sharing.</p>
 
     <h2>Data Retention &amp; Deletion</h2>
-    <p>Deleting Preplate from your device removes all locally stored data. To remove iCloud-synced data, sign into iCloud at <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a> or open iOS Settings → your name → iCloud → Manage Account Storage → Preplate → Delete.</p>
+    <p>Deleting Preplate from your device removes all locally stored data. To remove iCloud-synced data, sign into <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a> or open iOS Settings → your name → iCloud → Manage Account Storage → Preplate → Delete. Data sent to the third-party services above is retained according to each provider's own policy; we cannot delete it on your behalf.</p>
 
     <h2>Children's Privacy</h2>
-    <p>Preplate is not directed to children under 13 and we do not knowingly collect data from anyone under 13.</p>
+    <p>Preplate is not directed to children under 13, and we do not knowingly collect data from anyone under 13. The app is rated for users 17+ in part because it tracks nutrition and body weight.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If the app's data practices change, this page is updated and the date below changes with it. Material changes will also be noted in the app's release notes.</p>
 
     <h2>Contact</h2>
-    <p>Questions or concerns? Email <a href="mailto:cameron@cooperindustries.dev">cameron@cooperindustries.dev</a>.</p>
+    <p>Questions or concerns? Email <a href="mailto:cameron@cooperindustries.dev">cameron@cooperindustries.dev</a>. Support information is also available on the <a href="support.html">Preplate support page</a>.</p>
 
     <div class="updated">
-      <span>Last updated: May 1, 2026</span>
+      <span>Last updated: July 19, 2026</span>
       <span>Cooper Industries · Preplate iOS</span>
     </div>
   </main>

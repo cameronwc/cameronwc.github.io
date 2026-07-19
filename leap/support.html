@@ -1,0 +1,86 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>LEAP — Support</title>
+  <style>
+    :root {
+      --bg:#1c1c1e; --surface:#25252a; --text:#e0e0e0; --muted:#9a9aa0;
+      --green:#4caf50; --border:#333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f5f5f7; --surface:#fff; --text:#1c1c1e; --muted:#6b6b70; --green:#2e7d32; --border:#e0e0e5; }
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+    }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--green); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--green); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    h3 { font-size:16px; font-weight:600; margin:20px 0 6px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--green); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--green); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) {
+      main { padding:32px 20px 64px; }
+      h1 { font-size:24px; }
+      header img { width:56px; height:56px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <div class="title">
+        <span class="eyebrow">LEAP</span>
+        <h1>Support</h1>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p><strong>Need help?</strong> Email <a href="mailto:cameron@cooperindustries.dev">cameron@cooperindustries.dev</a>. Include your device model and iOS version and we'll reply, usually within two business days.</p>
+    </div>
+
+    <h2>How to Play</h2>
+    <p>Hold anywhere on the screen to charge your jump — the longer you hold, the more power. Tilt your phone to aim. Release to launch. Hop from platform to platform and climb as high as you can.</p>
+
+    <h2>Common Questions</h2>
+
+    <h3>The tilt aim feels wrong.</h3>
+    <p>Tilt is calibrated to how you were holding the phone when the run started. Open Settings and adjust tilt sensitivity, or start a new run holding the phone in your natural position.</p>
+
+    <h3>How do I remove ads?</h3>
+    <p>Open Settings and tap Remove Ads. It's a one-time purchase.</p>
+
+    <h3>I bought Remove Ads but ads came back.</h3>
+    <p>Open Settings and tap Restore Purchases, making sure you're signed into the same Apple ID used for the original purchase.</p>
+
+    <h3>My score didn't appear on the leaderboard.</h3>
+    <p>Leaderboards require Game Center. Check that you're signed in via iOS Settings → Game Center. Scores submitted while signed out aren't recorded.</p>
+
+    <h3>How do I unlock skins?</h3>
+    <p>Collect stars during runs and spend them in the Shop.</p>
+
+    <h2>Report a Bug</h2>
+    <p>Email <a href="mailto:cameron@cooperindustries.dev">cameron@cooperindustries.dev</a> with what you did, what you expected, and what happened instead.</p>
+
+    <div class="updated">
+      Cooper Industries · LEAP iOS · <a href="../">All apps</a>
+    </div>
+  </main>
+</body>
+</html>
