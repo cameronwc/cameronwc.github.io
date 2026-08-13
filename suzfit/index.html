@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Suzfit — Privacy Policy</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg: #1a1c1e;
+      --surface: #242628;
+      --text: #e0e0e0;
+      --muted: #9ca3af;
+      --accent: #2ec4b6;
+      --accent-dim: rgba(46, 196, 182, 0.15);
+      --border: #333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root {
+        --bg: #f8f9fa;
+        --surface: #ffffff;
+        --text: #1a1c1e;
+        --muted: #6b7280;
+        --accent: #0f8c81;
+        --accent-dim: rgba(15, 140, 129, 0.12);
+        --border: #e0e0e5;
+      }
+    }
+
+    * { box-sizing: border-box; }
+
+    html, body {
+      margin: 0;
+      padding: 0;
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", Helvetica, Arial, sans-serif;
+      font-size: 17px;
+      line-height: 1.55;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    main { max-width: 720px; margin: 0 auto; padding: 48px 24px 96px; }
+
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+      margin-bottom: 32px;
+    }
+
+    header img { width: 72px; height: 72px; border-radius: 16px; flex-shrink: 0; }
+    header .title { display: flex; flex-direction: column; gap: 2px; }
+
+    h1 { font-size: 28px; font-weight: 700; margin: 0; letter-spacing: -0.01em; }
+
+    .eyebrow {
+      color: var(--accent);
+      font-size: 13px;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h2 {
+      color: var(--accent);
+      font-size: 18px;
+      font-weight: 600;
+      margin: 36px 0 8px;
+      letter-spacing: -0.005em;
+    }
+
+    p, li { color: var(--text); }
+    p { margin: 0 0 12px; }
+
+    ul { margin: 0 0 12px; padding-left: 22px; }
+    li { margin-bottom: 6px; }
+
+    a { color: var(--accent); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    .callout {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--accent);
+      border-radius: 8px;
+      padding: 14px 16px;
+      margin: 0 0 16px;
+    }
+    .callout p:last-child { margin-bottom: 0; }
+
+    .updated {
+      margin-top: 48px;
+      padding-top: 20px;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 14px;
+      display: flex;
+      flex-direction: column;
+      gap: 4px;
+    }
+
+    @media (max-width: 480px) {
+      main { padding: 32px 20px 64px; }
+      h1 { font-size: 24px; }
+      header img { width: 56px; height: 56px; border-radius: 12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Suzfit logo">
+      <div class="title">
+        <span class="eyebrow">Suzfit</span>
+        <h1>Privacy Policy</h1>
+      </div>
+    </header>
+
+    <h2>Overview</h2>
+    <p>Suzfit is a workout tracking app published by Cooper Industries. It has no accounts, no ads, no analytics, and no third-party SDKs. Your workout data is stored on your device and in your own iCloud account, and we never receive a copy of it.</p>
+
+    <div class="callout">
+      <p><strong>The short version:</strong> we collect nothing. Suzfit has no servers of ours, no sign-up, no tracking, and no advertising. The only network activity is a one-time download of exercise demonstration images, which involves no personal data.</p>
+    </div>
+
+    <h2>What Stays on Your Device</h2>
+    <p>Your workouts, exercises, HIIT blocks, completed sessions, personal records, strength baselines, and app settings are stored locally using Apple's SwiftData framework. If iCloud is enabled on your device, that data also syncs to your private CloudKit database so it is available across devices signed into the same Apple ID. This is your iCloud account — Cooper Industries has no access to it.</p>
+
+    <h2>Exercise Image Downloads</h2>
+    <p>On first launch, Suzfit downloads exercise demonstration images from the open-source <a href="https://github.com/yuhonas/free-exercise-db" target="_blank" rel="noopener">free-exercise-db</a> dataset, hosted on GitHub's content delivery network (<code style="background: var(--accent-dim); color: var(--accent); padding: 2px 6px; border-radius: 4px; font-size: 14px;">raw.githubusercontent.com</code>). These requests contain no personal data — like any web request, they reveal your IP address to the server, in this case GitHub. The images are then stored on your device and are not re-downloaded.</p>
+
+    <h2>Notifications</h2>
+    <p>Suzfit asks for notification permission so the rest timer can alert you when your rest period ends while the app is in the background. These are local notifications scheduled entirely on your device — nothing is sent to any server. You can decline the permission and the app works normally, minus background rest alerts.</p>
+
+    <h2>Analytics &amp; Tracking</h2>
+    <p>None. Suzfit contains no third-party analytics SDKs, crash reporters, advertising frameworks, or usage trackers. We do not log how you use the app, which screens you visit, or what you lift.</p>
+
+    <h2>Data Sharing</h2>
+    <p>We do not collect your data, so there is nothing to sell, rent, or share. Your workout data leaves your device only through Apple's iCloud sync to your own private database.</p>
+
+    <h2>Data Retention &amp; Deletion</h2>
+    <p>Deleting Suzfit from your device removes all locally stored data. To remove iCloud-synced data, open iOS Settings → your name → iCloud → Manage Account Storage → Suzfit → Delete, or manage it at <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a>.</p>
+
+    <h2>Children's Privacy</h2>
+    <p>Suzfit does not collect data from anyone, including children. The app is a general-audience fitness tool and is not directed to children under 13.</p>
+
+    <h2>Changes to This Policy</h2>
+    <p>If the app's data practices change, this page is updated and the date below changes with it. Material changes will also be noted in the app's release notes.</p>
+
+    <h2>Contact</h2>
+    <p>Questions or concerns? Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. Support information is also available on the <a href="support.html">Suzfit support page</a>.</p>
+
+    <div class="updated">
+      <span>Last updated: August 13, 2026</span>
+      <span>Cooper Industries · Suzfit iOS</span>
+    </div>
+  </main>
+</body>
+</html>

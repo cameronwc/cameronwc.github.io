@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Suzfit — Support</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg:#1a1c1e; --surface:#242628; --text:#e0e0e0; --muted:#9ca3af;
+      --accent:#2ec4b6; --border:#333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f8f9fa; --surface:#fff; --text:#1a1c1e; --muted:#6b7280; --accent:#0f8c81; --border:#e0e0e5; }
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+    }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--accent); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--accent); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    h3 { font-size:16px; font-weight:600; margin:20px 0 6px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) {
+      main { padding:32px 20px 64px; }
+      h1 { font-size:24px; }
+      header img { width:56px; height:56px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Suzfit logo">
+      <div class="title">
+        <span class="eyebrow">Suzfit</span>
+        <h1>Support</h1>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p><strong>Need help?</strong> Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. Include your device model and iOS version and we'll reply, usually within two business days.</p>
+    </div>
+
+    <h2>Getting Started</h2>
+    <p>Suzfit is a workout tracker built around your own plans. Build a workout from over 800 exercises (or add your own), layer HIIT blocks onto strength days, and start a session. During a workout, Suzfit tracks your sets, runs your rest timer, suggests weights based on your last session, and celebrates your PRs.</p>
+
+    <h2>Common Questions</h2>
+
+    <h3>How do I build a workout?</h3>
+    <p>From the Home tab, tap Build Workout. Add exercises from the picker, set your sets, rep ranges, and rest times, and optionally add a HIIT block. Save it and it appears on your Home screen, ready to start any time.</p>
+
+    <h3>What is Quick Start?</h3>
+    <p>Quick Start begins an empty session — add exercises as you go. It's for days when you want to train without a plan.</p>
+
+    <h3>How do weight suggestions work?</h3>
+    <p>Suzfit remembers what you lifted last session and applies your workout's progression rule to suggest the next weight. You can change the progression style per workout, or override it per exercise.</p>
+
+    <h3>Why does Suzfit ask for notification permission?</h3>
+    <p>So the rest timer can alert you when your rest ends while your phone is locked or the app is in the background. The alerts are generated on your device; nothing is sent anywhere. If you decline, everything else works normally.</p>
+
+    <h3>The exercise animations aren't loading.</h3>
+    <p>Demonstration images download once, on first launch, and need a network connection. If you were offline the first time you opened the app, connect to Wi-Fi and relaunch — missing images are fetched automatically.</p>
+
+    <h3>My data isn't syncing between devices.</h3>
+    <p>Suzfit syncs through your private iCloud account. Check that both devices are signed into the same Apple ID and that iCloud is enabled for Suzfit in iOS Settings → your name → iCloud. Sync usually completes within a few seconds on Wi-Fi.</p>
+
+    <h3>How do I delete my data?</h3>
+    <p>Deleting the app removes everything stored locally. To remove iCloud data, go to iOS Settings → your name → iCloud → Manage Account Storage → Suzfit → Delete. See the <a href="./">privacy policy</a> for details.</p>
+
+    <h3>How much does Suzfit cost?</h3>
+    <p>Nothing. Suzfit is free, with no ads, no subscriptions, and no limits on how many workouts you can save.</p>
+
+    <h2>Report a Bug or Request a Feature</h2>
+    <p>Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. For bugs, tell us what you did, what you expected, and what happened instead — screenshots help.</p>
+
+    <div class="updated">
+      Cooper Industries · Suzfit iOS · <a href="../">All apps</a>
+    </div>
+  </main>
+</body>
+</html>
