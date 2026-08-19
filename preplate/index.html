@@ -137,10 +137,10 @@
     </header>
 
     <h2>Overview</h2>
-    <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. Your meal data is stored on your device and in your own iCloud account. Some features send information to third-party services in order to work — the AI features, the food databases, and the grocery store lookup all require a network request. This page explains exactly what is sent, to whom, and when.</p>
+    <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. Your meal data is stored on your device and in your own iCloud account. Some features send information to third-party services in order to work — the AI features, the food databases, and the grocery store lookup all require a network request. This page explains exactly what is sent, to whom, and when. Requests to keyed services are routed through a small relay server operated by Cooper Industries, which holds the API credentials so the app does not have to.</p>
 
     <div class="callout">
-      <p><strong>The short version:</strong> we do not operate servers and we never receive your data ourselves. We show ads through Google AdMob, and several optional features send data directly from your device to third-party APIs — most notably Google's Gemini AI, which powers the coach, photo logging, and menu scanning. We do not sell your data and we run no analytics or tracking SDKs.</p>
+      <p><strong>The short version:</strong> your meal data lives on your device and in your own iCloud account. We run one small relay server that passes requests to third-party APIs on your behalf, and — only if you turn it on — stores recipes you choose to share with the Preplate community. We show ads through Google AdMob. We do not sell your data and we run no analytics or tracking SDKs.</p>
     </div>
 
     <h2>What Stays on Your Device</h2>
@@ -200,14 +200,22 @@
     <h2>Analytics</h2>
     <p>None. Preplate contains no third-party analytics SDKs, crash reporters, or usage trackers. We do not log how you use the app, which screens you visit, or which features you tap. The only advertising or tracking technology in the app is Google AdMob, described above.</p>
 
+    <h2>Community Recipe Catalog</h2>
+    <p><strong>Off unless you turn it on.</strong> Preplate asks once, the first time you save a recipe that qualifies, and you can change the answer at any time under Settings → Community → Share My Recipes.</p>
+    <p>When it is on, recipes <em>you write yourself</em> are uploaded to a database operated by Cooper Industries, reviewed automatically by Google Gemini for quality and safety, and — if they pass — published so other Preplate users can find and cook them. Published recipes appear without your name or any identifier attached to them.</p>
+    <p><strong>What is uploaded:</strong> the recipe title, servings, prep and cook times, tags, per-serving macros, the ingredient list, and the instructions.</p>
+    <p><strong>What is never uploaded:</strong> your photos, your personal notes on a recipe, and any recipe you imported from a website, a social post, or a photo. Imported recipes are excluded because they are someone else's work to republish, not ours or yours.</p>
+    <p><strong>How your device is identified:</strong> uploads carry a random identifier generated on your device — not your name, email, or Apple ID. It exists so that you can delete recipes you published and so that we can block abuse. It is stored in your device keychain, which means it survives deleting and reinstalling the app.</p>
+    <p><strong>Sharing a single recipe</strong> with a friend also uploads it to this database so the link you send opens for someone who does not have Preplate. A recipe shared this way is reachable by its link but is never listed in the public catalog. If your device is offline, Preplate falls back to a self-contained link that carries the recipe inside the link itself and never touches our server.</p>
+
     <h2>Data Sharing</h2>
-    <p>We do not sell or rent your data. Data leaves your device only to the third-party services named on this page, and only for the purpose described. We never share your recipes, meal plans, food logs, or weight data with advertisers.</p>
+    <p>We do not sell or rent your data. Data leaves your device only to the third-party services named on this page, or — if you have turned on community sharing — to the recipe catalog described above, and only for the purpose described. We never share your recipes, meal plans, food logs, or weight data with advertisers.</p>
 
     <h2>Household Sharing</h2>
     <p>If you invite household members to share recipes, meal plans, and shopping lists, sync happens through CloudKit using Apple's <code>CKShare</code> mechanism. Cooper Industries has no access to shared data — it travels directly between the iCloud accounts you authorize. Your personal profile, food logs, and weight entries are not part of household sharing.</p>
 
     <h2>Data Retention &amp; Deletion</h2>
-    <p>Deleting Preplate from your device removes all locally stored data. To remove iCloud-synced data, sign into <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a> or open iOS Settings → your name → iCloud → Manage Account Storage → Preplate → Delete. Data sent to the third-party services above is retained according to each provider's own policy; we cannot delete it on your behalf.</p>
+    <p>If you have published recipes to the community catalog, you can remove them from Settings → Community, which deletes them from our database. Deleting the app does <em>not</em> remove them, so do this first if that is what you want. Deleting Preplate from your device removes all locally stored data. To remove iCloud-synced data, sign into <a href="https://www.icloud.com/settings/" target="_blank" rel="noopener">icloud.com</a> or open iOS Settings → your name → iCloud → Manage Account Storage → Preplate → Delete. Data sent to the third-party services above is retained according to each provider's own policy; we cannot delete it on your behalf.</p>
 
     <h2>Children's Privacy</h2>
     <p>Preplate is not directed to children under 13, and we do not knowingly collect data from anyone under 13. The app is rated for users 17+ in part because it tracks nutrition and body weight.</p>
@@ -219,7 +227,7 @@
     <p>Questions or concerns? Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. Support information is also available on the <a href="support.html">Preplate support page</a>.</p>
 
     <div class="updated">
-      <span>Last updated: July 19, 2026</span>
+      <span>Last updated: August 19, 2026</span>
       <span>Cooper Industries · Preplate iOS</span>
     </div>
   </main>
