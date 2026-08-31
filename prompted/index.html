@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Prompted — Privacy Policy</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg:#1c1c1e; --surface:#25252a; --text:#e0e0e0; --muted:#9a9aa0;
+      --amber:#E8A33D; --amber-dim:rgba(232,163,61,0.15); --border:#333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f5f5f7; --surface:#fff; --text:#1c1c1e; --muted:#6b6b70;
+              --amber:#9A6B12; --amber-dim:rgba(154,107,18,0.12); --border:#e0e0e5; }
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+    }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--amber); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--amber); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--amber); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--amber); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) {
+      main { padding:32px 20px 64px; }
+      h1 { font-size:24px; }
+      header img { width:56px; height:56px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Prompted logo">
+      <div class="title">
+        <span class="eyebrow">Prompted</span>
+        <h1>Privacy Policy</h1>
+      </div>
+    </header>
+
+    <h2>Overview</h2>
+    <p>Prompted is a posing reference app for portrait photographers, published by Cooper Industries. It has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind. Everything you do in the app — favourites, sessions, notes about which client you used a pose with — stays on your device.</p>
+    <div class="callout">
+      <p>The short version: nothing you enter ever leaves your phone. The app downloads its pose catalog from our content server the way a browser downloads a web page, and processes purchases through Apple. That's the entire list.</p>
+    </div>
+
+    <h2>What Stays on Your Device</h2>
+    <p>Your favourites, saved sessions, session order, used-with-a-client history (including any client names you type), settings, and the pose catalog itself are stored locally on your device. There is no cloud sync and no server-side copy — Cooper Industries cannot see any of it.</p>
+    <p>If you export a session as a PDF contact sheet, that PDF is created on your device and goes only where you choose to share it.</p>
+
+    <h2>Location</h2>
+    <p>Prompted can use your location, with your permission, to compute the sun's position — sunrise, sunset, golden hour, and the current light — using an on-device astronomy calculation. Your coordinates are read at neighbourhood-level (kilometre) accuracy, are used only for that computation, and never leave the device. There is no geocoding, no weather lookup, and no location history. The sun tracker simply doesn't work until you grant permission, and the rest of the app is unaffected if you decline.</p>
+
+    <h2>Network Requests</h2>
+    <p>The app makes one kind of network request: plain HTTPS downloads of its pose catalog (a static file of pose data and photographs) from our content server. These requests carry no account information, no identifiers, and no cookies. As with any internet download, the server can see your IP address while serving the files. After the catalog has downloaded once, the app works fully offline.</p>
+
+    <h2>Purchases</h2>
+    <p>Prompted Pro is sold through Apple's App Store. Payment is handled entirely by Apple; we never see your payment details. To know whether your purchase is active across your devices, the app uses <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, which processes your App Store receipt under an anonymous identifier. No name, email, or other personal detail is attached to it.</p>
+
+    <h2>What We Don't Do</h2>
+    <ul>
+      <li>No analytics or crash-reporting SDKs.</li>
+      <li>No advertising, and no advertising identifiers.</li>
+      <li>No tracking across apps or websites.</li>
+      <li>No selling or sharing of data — there is no data to sell.</li>
+    </ul>
+
+    <h2>Deleting Your Data</h2>
+    <p>Because everything lives on your device, deleting the app deletes your data. Purchases are tied to your Apple Account and can be restored on any device with Restore Purchases.</p>
+
+    <h2>Children</h2>
+    <p>Prompted is a professional tool for photographers and is not directed at children.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the updated version will be posted at this address with a new date below. A change will never quietly add tracking — the promise above is the product.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy: <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a></p>
+
+    <div class="updated">
+      <span>Effective date: 30 August 2026</span>
+      <span>Cooper Industries — Prompted: Photography Poses</span>
+    </div>
+  </main>
+</body>
+</html>
