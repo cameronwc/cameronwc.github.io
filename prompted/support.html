@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Prompted — Support</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg:#1c1c1e; --surface:#25252a; --text:#e0e0e0; --muted:#9a9aa0;
+      --amber:#E8A33D; --border:#333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f5f5f7; --surface:#fff; --text:#1c1c1e; --muted:#6b6b70; --amber:#9A6B12; --border:#e0e0e5; }
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+    }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--amber); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--amber); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    h3 { font-size:16px; font-weight:600; margin:20px 0 6px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--amber); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--amber); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) {
+      main { padding:32px 20px 64px; }
+      h1 { font-size:24px; }
+      header img { width:56px; height:56px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Prompted logo">
+      <div class="title">
+        <span class="eyebrow">Prompted</span>
+        <h1>Support</h1>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p>Need help? Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. Include your device model and iOS version and we'll reply, usually within two business days.</p>
+    </div>
+
+    <h2>Getting Started</h2>
+    <p>Prompted is a pose library with verbal prompts, matched to the light you're shooting in. On first launch, pick the kinds of shoots you do and Browse opens on them. The sun chip at the top of Browse tracks golden hour for your location; tap it for full solar detail. Build a shot list in Sessions, then run it hands-free in Shoot Mode.</p>
+
+    <h2>Common Questions</h2>
+
+    <h3>Does it work offline?</h3>
+    <p>Yes. The pose catalog downloads once, on first launch, and after that everything — browsing, search, the sun tracker, sessions, Shoot Mode — works with no connection. Downloading a session (Pro) also pins its full-resolution photos to the device for shoots with no signal.</p>
+
+    <h3>The library won't download</h3>
+    <p>The very first launch needs a connection to fetch the catalog. Check your connection and tap "Try again". Once it has loaded a single time, this screen never returns.</p>
+
+    <h3>The sun tracker shows nothing</h3>
+    <p>The sun tracker needs location permission — it computes the sun's position on your device and your location never leaves it. Tap the sun row in Browse to grant permission, or turn it on in iOS Settings &rarr; Privacy &amp; Security &rarr; Location Services &rarr; Prompted.</p>
+
+    <h3>I bought Pro but it's still locked</h3>
+    <p>Tap Restore Purchases — it's on the paywall and in Settings under Saved. Make sure you're signed into the same Apple Account that made the purchase. If it still won't unlock, email us; the App Store keeps your receipt and nothing is lost.</p>
+
+    <h3>How do I cancel my subscription?</h3>
+    <p>Subscriptions are managed by Apple: iOS Settings &rarr; your name &rarr; Subscriptions &rarr; Prompted. Cancelling keeps Pro active until the end of the paid period. The Lifetime unlock is a one-off purchase with nothing to cancel.</p>
+
+    <h3>What does free include?</h3>
+    <p>The sun tracker with no limits, 40 poses across three categories, and one saved session. Pro unlocks the full library, unlimited sessions, offline downloads, and PDF contact sheets.</p>
+
+    <h2>Privacy</h2>
+    <p>No account, no analytics, no tracking. The full policy is at <a href="index.html">the privacy page</a>.</p>
+
+    <div class="updated">
+      <span>Cooper Industries — Prompted: Photography Poses</span>
+    </div>
+  </main>
+</body>
+</html>
