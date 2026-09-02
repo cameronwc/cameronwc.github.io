@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Kept — Support</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root { --bg:#1c1c1e; --surface:#25252a; --text:#e0e0e0; --muted:#9a9aa0; --accent:#cc876b; --border:#333338; }
+    @media (prefers-color-scheme: light) { :root { --bg:#f5f5f7; --surface:#fff; --text:#1c1c1e; --muted:#6b6b70; --accent:#b0664a; --border:#e0e0e5; } }
+    * { box-sizing:border-box; }
+    html,body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif; font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased; }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--accent); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--accent); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    h3 { font-size:16px; font-weight:600; margin:20px 0 6px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--accent); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--accent); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) { main { padding:32px 20px 64px; } h1 { font-size:24px; } header img { width:56px; height:56px; border-radius:12px; } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Kept logo">
+      <div class="title">
+        <span class="eyebrow">Kept</span>
+        <h1>Support</h1>
+      </div>
+    </header>
+
+    <div class="callout">
+      <p><strong>Need help?</strong> Email <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. Include your device model and iOS version and we'll reply, usually within two business days. Please don't include the text of your prayers; we never need it.</p>
+    </div>
+
+    <h2>Getting Started</h2>
+    <p>Kept is a private prayer journal that remembers. Write what you're praying for, and Kept brings it back to you at three days, a week, two weeks, a month, three months, six months, a year, and two years, so you see what you asked for and what came of it. Mark each prayer Open, Ongoing, Answered, or Released; answered prayers build into a timeline on the Answered tab.</p>
+
+    <h2>Common Questions</h2>
+
+    <h3>Nothing shows up on Today yet.</h3>
+    <p>Kept starts bringing prayers back three days after they were written. Backdate a prayer (the date field on the Write screen, or the "Since" date during setup) and it enters the ladder from that date.</p>
+
+    <h3>How does scripture matching work? Is my prayer sent anywhere?</h3>
+    <p>No. Matching runs on your phone using a small language model and the full text of two public-domain Bibles. The first time you use it, Kept downloads about 35 MB of matching data from Apple's servers (not from us); after that it works offline, even in airplane mode. The free plan includes three matches; Kept+ matches every prayer.</p>
+
+    <h3>Where are my prayers stored?</h3>
+    <p>On your device, and in your own iCloud if iCloud is on for Kept. There is no Kept server and no account. See the <a href="./">privacy policy</a>.</p>
+
+    <h3>My prayers aren't syncing between devices.</h3>
+    <p>Both devices need the same Apple ID, iCloud Drive turned on, and Kept enabled under iOS Settings → your name → iCloud → Apps Using iCloud. Sync can take a few minutes after you open the app on the second device.</p>
+
+    <h3>I deleted a prayer by mistake.</h3>
+    <p>Settings → Your data → Trash. Prayers stay there for 30 days and can be put back with one tap.</p>
+
+    <h3>Can I get my prayers out of Kept?</h3>
+    <p>Yes, any time. Settings → Your data → Export as Markdown or Export as PDF. Kept also keeps local backups (Settings → Your data → Backups) that can be restored.</p>
+
+    <h3>How do I import an old journal?</h3>
+    <p>During setup, or from Settings → Your data → Import from a file. Kept reads plain text (one entry per blank-line-separated block, with a date on the first line if you have one) and Day One JSON exports. Dates come across so old entries start resurfacing right away.</p>
+
+    <h3>How do I restore my Kept+ purchase?</h3>
+    <p>Settings → Kept+ → Restore purchases. Be sure you're signed into the same Apple ID you originally purchased with.</p>
+
+    <h3>How do I cancel my subscription?</h3>
+    <p>Subscriptions are billed by Apple, not by us. Open iOS Settings, tap your name, then Subscriptions, then Kept. Cancelling stops future renewals; access continues until the end of the paid period. Everything you wrote stays on your device either way.</p>
+
+    <h3>The widgets say they need Kept+.</h3>
+    <p>Widgets are part of Kept+. Tap the widget to start a free week; they update the next time you open the app.</p>
+
+    <div class="updated">
+      Cooper Industries · <a href="./">Privacy Policy</a> · <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>
+    </div>
+  </main>
+</body>
+</html>
