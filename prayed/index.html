@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="dark light">
+  <title>Prayed — Privacy Policy</title>
+  <link rel="icon" type="image/png" href="logo.png">
+  <style>
+    :root {
+      --bg:#1c1c1e; --surface:#25252a; --text:#e0e0e0; --muted:#9a9aa0;
+      --green:#4caf50; --border:#333338;
+    }
+    @media (prefers-color-scheme: light) {
+      :root { --bg:#f5f5f7; --surface:#fff; --text:#1c1c1e; --muted:#6b6b70; --green:#2e7d32; --border:#e0e0e5; }
+    }
+    * { box-sizing:border-box; }
+    html,body {
+      margin:0; padding:0; background:var(--bg); color:var(--text);
+      font-family:-apple-system,BlinkMacSystemFont,"SF Pro Text","Inter",Helvetica,Arial,sans-serif;
+      font-size:17px; line-height:1.55; -webkit-font-smoothing:antialiased;
+    }
+    main { max-width:720px; margin:0 auto; padding:48px 24px 96px; }
+    header { display:flex; align-items:center; gap:16px; padding-bottom:24px; border-bottom:1px solid var(--border); margin-bottom:32px; }
+    header img { width:72px; height:72px; border-radius:16px; flex-shrink:0; }
+    header .title { display:flex; flex-direction:column; gap:2px; }
+    h1 { font-size:28px; font-weight:700; margin:0; letter-spacing:-0.01em; }
+    .eyebrow { color:var(--green); font-size:13px; font-weight:600; letter-spacing:0.08em; text-transform:uppercase; }
+    h2 { color:var(--green); font-size:18px; font-weight:600; margin:36px 0 8px; }
+    h3 { font-size:16px; font-weight:600; margin:20px 0 6px; }
+    p { margin:0 0 12px; }
+    ul { margin:0 0 12px; padding-left:22px; }
+    li { margin-bottom:6px; }
+    a { color:var(--green); text-decoration:none; }
+    a:hover { text-decoration:underline; }
+    .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--green); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
+    .callout p:last-child { margin-bottom:0; }
+    .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    @media (max-width:480px) {
+      main { padding:32px 20px 64px; }
+      h1 { font-size:24px; }
+      header img { width:56px; height:56px; border-radius:12px; }
+    }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <img src="logo.png" alt="Prayed icon">
+      <div class="title">
+        <span class="eyebrow">Prayed</span>
+        <h1>Privacy Policy</h1>
+      </div>
+    </header>
+
+    <p>Prayed is a private prayer journal. The whole product is built so that your prayers never leave your phone.</p>
+
+    <h2>What Prayed Collects</h2>
+    <p>Nothing. Prayed has no server, no account system, no analytics, no crash-reporting SDK, no advertising, and no third-party code. The developer cannot see, receive, or recover anything you write. The App Store privacy label for Prayed is <strong>"Data Not Collected."</strong></p>
+
+    <h2>Where Your Prayers Live</h2>
+    <p><strong>On your device.</strong> Everything you write is stored in Prayed's own container on your iPhone, protected by the device's encryption and, if you leave the default on, by Face ID, Touch ID, or your passcode.</p>
+    <p><strong>In your own iCloud, if you choose.</strong> If iCloud is turned on for Prayed, your journal syncs between your own devices through CloudKit's private database. That data belongs to your Apple ID. Apple encrypts it in transit and at rest, and the developer has no access to it. Turning iCloud off for Prayed in iOS Settings stops sync.</p>
+    <p><strong>In local backups.</strong> Prayed keeps a few JSON copies of your journal inside its own app container so a failed update can never take your journal away. These never leave the device except through your own iCloud device backup.</p>
+
+    <h2>Scripture Matching</h2>
+    <p>Prayed suggests Bible verses that speak to what you wrote. This runs entirely on the device using a small language model and the full text of two public-domain translations (World English Bible and King James Version). It works in airplane mode. No text is sent anywhere to do this.</p>
+
+    <h2>Deeper Reflection</h2>
+    <p>Prayed Plus can write a short reflection on a single prayer. This uses Apple Intelligence's on-device model (iOS 26 on a supported iPhone). The model reads that one prayer and the verses you kept with it, writes on the phone itself, and nothing leaves the device. You choose whether to keep the reflection with the prayer. On phones without Apple Intelligence the feature does not appear.</p>
+    <p>Prayed's code also allows a reflection provider that would send text to a service. No such provider is enabled in this release. If one is ever added, it will be off by default, it will show you the exact text before anything is sent, and this policy will name the service and its retention terms first.</p>
+
+    <h2>Notifications</h2>
+    <p>If you turn on the daily reminder, Prayed schedules a local notification on your device. Its text is fixed and never includes anything you wrote. During a Prayed Plus free trial, Prayed also schedules local reminders before the trial converts to a paid subscription.</p>
+
+    <h2>Purchases</h2>
+    <p>Prayed Plus is sold through Apple's in-app purchase system. Prayed checks your subscription status with Apple's StoreKit on the device. The developer receives only the anonymized sales reporting Apple provides to all developers and never sees your payment details.</p>
+
+    <h2>Your Control</h2>
+    <ul>
+      <li><strong>Export</strong> your whole journal as Markdown or PDF at any time from Settings.</li>
+      <li><strong>Delete</strong> any prayer. It sits in the Trash for 30 days, then is removed for good.</li>
+      <li><strong>Delete everything</strong> by deleting the app; if iCloud sync was on, also delete Prayed's data in iOS Settings → your name → iCloud → Manage Storage.</li>
+    </ul>
+
+    <h2>Children</h2>
+    <p>Prayed is not directed at children under 13 and collects no information from anyone.</p>
+
+    <h2>Changes</h2>
+    <p>If this policy changes, the new version ships inside the app and the date below is updated.</p>
+
+    <h2>Contact</h2>
+    <p>Questions about privacy: <a href="mailto:cameron.w.cooper@gmail.com">cameron.w.cooper@gmail.com</a>. See also the <a href="support.html">Prayed support page</a>.</p>
+
+    <div class="callout"><p>Last updated: September 2, 2026</p></div>
+
+    <div class="updated">
+      Cooper Industries · Prayed iOS · <a href="../">All apps</a>
+    </div>
+  </main>
+</body>
+</html>
