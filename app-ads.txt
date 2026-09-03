@@ -4,5 +4,5 @@
 #   LEAP     (cooperindustries.Leap)     — app ID ca-app-pub-2805817840679215~2993431820
 #
 # For AdMob to find this file, each app's App Store listing must set its
-# marketing / developer website to https://cameronwc.github.io
+# marketing / developer website to https://cooperindustries.cc
 google.com, pub-2805817840679215, DIRECT, f08c47fec0942fa0
