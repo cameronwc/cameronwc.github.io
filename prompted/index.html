@@ -54,9 +54,9 @@
     </header>
 
     <h2>Overview</h2>
-    <p>Prompted is a posing reference app for portrait photographers, published by Cooper Industries. It has no accounts, no sign-in, no analytics, no advertising, and no tracking of any kind. Everything you do in the app — favourites, sessions, notes about which client you used a pose with — stays on your device.</p>
+    <p>Prompted is a posing reference app for portrait photographers, published by Cooper Industries. It has no accounts, no sign-in, no advertising, and no tracking of any kind. The only thing it counts is which features get used, anonymously, and you can turn that off. Everything you do in the app — favourites, sessions, notes about which client you used a pose with — stays on your device.</p>
     <div class="callout">
-      <p>The short version: nothing you enter ever leaves your phone. The app downloads its pose catalog from our content server the way a browser downloads a web page, and processes purchases through Apple. That's the entire list.</p>
+      <p>The short version: nothing you enter ever leaves your phone. The app downloads its pose catalog from our content server the way a browser downloads a web page, processes purchases through Apple, and sends anonymous feature counts to an analytics service unless you switch that off. That's the entire list.</p>
     </div>
 
     <h2>What Stays on Your Device</h2>
@@ -72,9 +72,15 @@
     <h2>Purchases</h2>
     <p>Prompted Pro is sold through Apple's App Store. Payment is handled entirely by Apple; we never see your payment details. To know whether your purchase is active across your devices, the app uses <a href="https://www.revenuecat.com/privacy/">RevenueCat</a>, which processes your App Store receipt under an anonymous identifier. No name, email, or other personal detail is attached to it.</p>
 
+    <h2>Anonymous Usage Counts</h2>
+    <p>To decide what to build next, Prompted counts how often features are used &mdash; for example how many times Shoot Mode was started or a contact sheet was exported. These counts are sent to <a href="https://telemetrydeck.com/privacy/" target="_blank" rel="noopener">TelemetryDeck</a>, an analytics service that receives them under a one-way hashed identifier it cannot reverse. Each event carries only a feature name and, where relevant, a count, an enum value, or the app and catalog version. No names, no client names, no pose you looked at, no location, and no advertising identifier are ever included. There is no crash reporting.</p>
+    <p>You can turn this off at any time in Settings &rarr; About &rarr; Share anonymous usage. When it is off, nothing is sent.</p>
+
+
+
     <h2>What We Don't Do</h2>
     <ul>
-      <li>No analytics or crash-reporting SDKs.</li>
+      <li>No crash-reporting SDKs, and no analytics beyond the anonymous feature counts described above.</li>
       <li>No advertising, and no advertising identifiers.</li>
       <li>No tracking across apps or websites.</li>
       <li>No selling or sharing of data — there is no data to sell.</li>
@@ -93,7 +99,7 @@
     <p>Questions about privacy: <a href="mailto:support@cooperindustries.cc">support@cooperindustries.cc</a></p>
 
     <div class="updated">
-      <span>Effective date: 30 August 2026</span>
+      <span>Effective date: 4 September 2026</span>
       <span>Cooper Industries — Prompted: Photography Poses</span>
     </div>
   </main>

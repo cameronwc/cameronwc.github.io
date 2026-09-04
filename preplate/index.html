@@ -140,7 +140,7 @@
     <p>Preplate is a meal planning and grocery shopping app published by Cooper Industries. Your meal data is stored on your device and in your own iCloud account. Some features send information to third-party services in order to work — the AI features, the food databases, and the grocery store lookup all require a network request. This page explains exactly what is sent, to whom, and when.</p>
 
     <div class="callout">
-      <p><strong>The short version:</strong> we do not operate servers and we never receive your data ourselves. We show ads through Google AdMob, and several optional features send data directly from your device to third-party APIs — most notably Google's Gemini AI, which powers the coach, photo logging, and menu scanning. We do not sell your data and we run no analytics or tracking SDKs.</p>
+      <p><strong>The short version:</strong> your meal data lives on your device and in your own iCloud. Several optional features send data to third-party APIs — most notably Google's Gemini AI, which powers the coach, photo logging, and menu scanning. Those requests pass through a small relay server we operate, which forwards them and does not keep a copy. We show ads through Google AdMob. We do not sell your data and we run no analytics or tracking SDKs.</p>
     </div>
 
     <h2>What Stays on Your Device</h2>
@@ -152,7 +152,7 @@
     <p>Health data read from Apple Health stays on your device and in your private iCloud database. It is never sent to advertisers. Note that if you use the AI coach, the coach's context includes your recent weight entries and food logs — see the AI section below. You can revoke Health access at any time in iOS Settings → Health → Data Access &amp; Devices → Preplate.</p>
 
     <h2>AI Features (Google Gemini)</h2>
-    <p>Several Preplate features are powered by Google's Gemini API. When you use them, data is sent from your device directly to Google. Cooper Industries does not receive or store a copy.</p>
+    <p>Several Preplate features are powered by Google's Gemini API. When you use them, data is sent from your device to Google by way of our relay server (see <a href="#relay">Our relay server</a> below). The relay forwards the request and the reply and does not store either.</p>
 
     <div class="table-wrap">
       <table>
@@ -181,17 +181,27 @@
           <tr><th>Service</th><th>What is sent</th><th>When</th></tr>
         </thead>
         <tbody>
-          <tr><td>Spoonacular</td><td>Your food search terms, and recipe titles used to find matching photos</td><td>You search for a food, or recipe images are filled in</td></tr>
-          <tr><td>Open Food Facts</td><td>The product barcode you scan</td><td>You scan a barcode</td></tr>
+          <tr><td>FatSecret</td><td>Your food search terms, the barcode you scan, and recipe titles used to find matching photos</td><td>You search for a food, scan a barcode, or recipe images are filled in</td></tr>
+          <tr><td>Open Food Facts</td><td>The product barcode you scan</td><td>You scan a barcode that FatSecret does not recognise</td></tr>
           <tr><td>Kroger</td><td>The ZIP code you type, and your shopping list item names</td><td>You search for a store or view your list by aisle</td></tr>
-          <tr><td>Recipe and social media websites</td><td>A direct request to the URL you paste, which reveals your IP address to that site</td><td>You import a recipe from a URL or public post link</td></tr>
+          <tr><td>Recipe and social media websites</td><td>A direct request from your device to the URL you paste, which reveals your IP address to that site. For Instagram posts the request identifies itself as a link-preview crawler so the public caption can be read</td><td>You import a recipe from a URL or public post link</td></tr>
         </tbody>
       </table>
     </div>
     <p>The ZIP code you enter for store lookup is typed by you and is used only to find nearby stores. Preplate does not use iOS Location Services and never reads your device's GPS position.</p>
+    <p>FatSecret and Kroger requests, like Gemini requests, go through our relay server. Open Food Facts and pasted recipe URLs are contacted directly from your device.</p>
+
+    <h2 id="relay">Our Relay Server</h2>
+    <p>Cooper Industries operates one server for Preplate. Its job is to hold the API credentials for Gemini, FatSecret, and Kroger so they do not have to ship inside the app. When you use a feature backed by one of those services, your device sends the request to the relay, the relay adds the credential and forwards the request unchanged, and the reply comes back the same way.</p>
+    <ul>
+      <li>The relay does not store the contents of requests or replies. Your messages, photos, food logs, weight entries, and search terms pass through it and are not written down.</li>
+      <li>Like any web server it keeps short-lived operational logs of the request path, timestamp, and the connecting IP address, used only to keep the service running.</li>
+      <li>Requests carry no account identifier, because Preplate has no accounts.</li>
+      <li>The one thing the relay does store is recipes you choose to share: when you create a recipe share link, or submit a recipe to the community catalog, that recipe's title, ingredients, and steps are saved on the server so other people can open them. Nothing about you is attached beyond the recipe itself.</li>
+    </ul>
 
     <h2>Advertising</h2>
-    <p>The free tier of Preplate displays banner advertisements from Google AdMob. iOS will ask whether you want to allow tracking; if you decline, AdMob serves non-personalized ads. If you allow it, your device's advertising identifier (IDFA) is shared with Google for personalized advertising. Premium subscribers see no ads at all. For details on what Google receives, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising privacy policy</a>.</p>
+    <p>The free tier of Preplate displays banner advertisements from Google AdMob. iOS will ask whether you want to allow tracking. If you decline, the app cannot read your advertising identifier and Google does not receive it; ads are then served without it. If you allow it, your device's advertising identifier (IDFA) is shared with Google for personalized advertising. The AdMob software starts with the app for everyone, but Premium subscribers are never shown an ad. For details on what Google receives, see <a href="https://policies.google.com/technologies/ads" target="_blank" rel="noopener">Google's advertising privacy policy</a>.</p>
     <p>Ads are never shown alongside, and are never targeted using, your health or nutrition data.</p>
 
     <h2>In-App Purchases</h2>
@@ -219,7 +229,7 @@
     <p>Questions or concerns? Email <a href="mailto:support@cooperindustries.cc">support@cooperindustries.cc</a>. Support information is also available on the <a href="support.html">Preplate support page</a>.</p>
 
     <div class="updated">
-      <span>Last updated: July 19, 2026</span>
+      <span>Last updated: September 4, 2026</span>
       <span>Cooper Industries · Preplate iOS</span>
     </div>
   </main>
