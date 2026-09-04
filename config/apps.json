@@ -1,0 +1,8 @@
+{
+  "_comment": "Single source of truth for App Store IDs. Every apps.apple.com link under /<slug>/ must use this ID; tools/site-check.py enforces it and tools/make-qr.py generates the QR codes from it.",
+  "apps": {
+    "preplate": { "name": "Preplate", "appStoreId": "6763815262" },
+    "prompted": { "name": "Prompted", "appStoreId": "6807112342" },
+    "prayed":   { "name": "Prayed",   "appStoreId": "6808304184" }
+  }
+}

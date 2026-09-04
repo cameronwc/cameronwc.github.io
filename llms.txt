@@ -1,12 +1,12 @@
 # Cooper Industries
 
-> Independent iOS developer publishing privacy-first apps. All apps: no accounts, data stays on device or in the user's own iCloud. Support: cameron.w.cooper@gmail.com.
+> Independent iOS developer publishing privacy-first apps. All apps: no accounts, data stays on device or in the user's own iCloud. Support: support@cooperindustries.cc.
 
 ## Apps
 
 - [Preplate](https://cooperindustries.cc/preplate/marketing/): Macro meal planner and grocery list for iPhone and iPad. Plan a week of meals against calorie and macro targets, log food by search, barcode, photo or restaurant menu scan, and get an auto-generated shopping list sorted by aisle (real Kroger-family store aisles). AI meal planner and coach. Free with ads; Premium $2.99/month or $14.99/year with a 1-week free trial. App Store: https://apps.apple.com/us/app/preplate/id6763815262
-- [Prompted](https://cooperindustries.cc/prompted/marketing/): Photography posing app for portrait photographers. 270+ poses for couples, engagement, family, maternity and senior sessions, each with word-for-word verbal prompts in three tones. On-device solar engine filters poses to the current light and shows golden hour. Works offline. Free tier includes the sun tracker, 40 poses and one session; Pro $4.99/month, $29.99/year (7-day trial) or $79.99 lifetime.
-- [Prayed](https://cooperindustries.cc/prayed/marketing/): Private prayer journal for iPhone. Brings each prayer back at 3 days, 1 week, 2 weeks, 1 month, 3 months, 6 months, 1 year and 2 years; matches three Bible verses (WEB or KJV) on-device; tracks prayers as open, ongoing, answered or released. No server, no account, no analytics. Writing is free forever; Prayed Plus $5.99/month or $34.99/year with a 7-day trial.
+- [Prompted](https://cooperindustries.cc/prompted/marketing/): Photography posing app for portrait photographers. 250+ poses for couples, engagement, family, maternity and senior sessions, each with word-for-word verbal prompts in three tones. On-device solar engine filters poses to the current light and shows golden hour. Works offline. Free tier includes the sun tracker, 40 poses and one session; Pro $4.99/month, $29.99/year (7-day trial) or $79.99 lifetime. App Store: https://apps.apple.com/us/app/id6807112342
+- [Prayed](https://cooperindustries.cc/prayed/marketing/): Private prayer journal for iPhone. Brings each prayer back at 3 days, 1 week, 2 weeks, 1 month, 3 months, 6 months, 1 year and 2 years; matches three Bible verses (WEB or KJV) on-device; tracks prayers as open, ongoing, answered or released. No server, no account, no analytics. Writing is free forever; Prayed Plus $5.99/month or $34.99/year with a 7-day trial. App Store: https://apps.apple.com/us/app/id6808304184
 - Suzfit: Workout tracking with composable HIIT. https://cooperindustries.cc/suzfit/
 - LEAP: A hand-drawn vertical jumper game. https://cooperindustries.cc/leap/
 
