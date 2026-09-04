@@ -1,0 +1,5 @@
+{
+  "_comment": "Read by the Prompted iOS app on launch. content_base overrides the compiled content host (https://content.cooperindustries.cc) so the host can move without an App Store update. Must be an https URL. Takes effect on the app's next launch.",
+  "schema": 1,
+  "content_base": "https://content.cooperindustries.cc"
+}
