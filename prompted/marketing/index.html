@@ -26,6 +26,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="../../assets/marketing.css">
+  <link rel="stylesheet" href="../../assets/guides.css">
   <style>
     :root {
       --font-display: "Manrope", -apple-system, BlinkMacSystemFont, "SF Pro Display", Helvetica, Arial, sans-serif;
@@ -104,6 +105,7 @@
         <a href="#features">Features</a>
         <a href="#pricing">Pricing</a>
         <a href="#faq">FAQ</a>
+        <a href="../guides/">Guides</a>
         <a href="../support.html">Support</a>
         <a class="btn" href="https://apps.apple.com/us/app/id6807112342?ct=marketing-site-nav&amp;mt=8">Get the app</a>
       </div>
@@ -267,6 +269,20 @@
       <p class="legal">Subscriptions renew until cancelled. Manage in your App Store account settings. Payment is charged to your Apple Account at confirmation of purchase. See the <a href="https://www.apple.com/legal/internet-services/itunes/dev/stdeula/" target="_blank" rel="noopener">Terms of Use</a> and <a href="../">Privacy Policy</a>.</p>
     </section>
 
+    <section id="shot-list">
+      <div class="capture rv" style="margin:0">
+        <h3>Free: The Fall Mini Session Shot List</h3>
+        <p>About 25 poses grouped by family size, each with the words to say. A PDF, sent once you confirm your address.</p>
+        <form class="capture-form" data-source="marketing" novalidate>
+          <input type="email" name="email" placeholder="you@studio.com" autocomplete="email" required aria-label="Email address">
+          <input class="hp" type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true">
+          <button class="btn" type="submit">Send me the shot list</button>
+        </form>
+        <p class="ok" hidden></p>
+        <p class="fine">One email to confirm, one with the PDF. Unsubscribe any time. No selling, no sharing.</p>
+      </div>
+    </section>
+
     <section id="faq">
       <div class="sec-head rv"><h2>Questions, answered.</h2></div>
       <div class="faq rv">
@@ -305,6 +321,8 @@
       </div>
     </footer>
   </div>
+  <script src="../../assets/capture-config.js"></script>
+  <script src="../../assets/capture.js" defer></script>
   <script src="../../assets/marketing.js" defer></script>
 </body>
 </html>
