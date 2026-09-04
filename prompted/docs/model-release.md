@@ -1,5 +1,3 @@
-**DRAFT — review by an attorney before use.**
-
 # Model Release
 
 **For photographs licensed to Cooper Industries for use in the Prompted app**

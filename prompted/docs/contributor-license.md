@@ -1,5 +1,3 @@
-**DRAFT — review by an attorney before use.**
-
 # Prompted Contributor License
 
 This agreement is between the photographer named below (the "Photographer") and Cooper Industries, support@cooperindustries.cc ("Cooper"), publisher of the Prompted iOS app.
