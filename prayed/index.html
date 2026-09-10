@@ -56,7 +56,14 @@
     <p>Prayed is a private prayer journal. The whole product is built so that your prayers never leave your phone.</p>
 
     <h2>What Prayed Collects</h2>
-    <p>Nothing. Prayed has no server, no account system, no analytics, no crash-reporting SDK, no advertising, and no third-party code. The developer cannot see, receive, or recover anything you write. The App Store privacy label for Prayed is <strong>"Data Not Collected."</strong></p>
+    <p>Nothing you write, ever. Prayed has no server, no account system, no crash-reporting SDK, and no advertising. The developer cannot see, receive, or recover anything you write. The one exception to "no third-party code" is a small set of anonymous usage signals described below, and the App Store privacy label for Prayed is <strong>"Data Not Collected."</strong></p>
+
+    <h2>Usage Signals (New in 2.0)</h2>
+    <p>Prayed 2.0 sends a small number of anonymous usage signals to <a href="https://telemetrydeck.com/privacy">TelemetryDeck</a>, a privacy-focused analytics service based in Germany, so the developer can learn which parts of the app people use. This is the only third-party code in Prayed.</p>
+    <p>What a signal contains: an event name (for example "paywall shown", "prayer saved", "review opened", "shortcut run", "watch launched"), which screen it came from, the app version, the iOS version, the device model, and the language. TelemetryDeck also derives a salted, one-way hashed identifier that cannot be turned back into you or your device, and does not share it with anyone.</p>
+    <p>What a signal never contains: anything you wrote, the names of people you pray for, dates of prayers, your counts of prayers, your name, your email, your Apple ID, or your location. The signals are not used for advertising or for tracking you across apps or websites.</p>
+    <p>Because these signals are anonymous and are never linked to you, Prayed's App Store privacy label remains <strong>"Data Not Collected."</strong> Signals are not sent from the developer's own test builds.</p>
+
 
     <h2>Where Your Prayers Live</h2>
     <p><strong>On your device.</strong> Everything you write is stored in Prayed's own container on your iPhone, protected by the device's encryption and, if you leave the default on, by Face ID, Touch ID, or your passcode.</p>
@@ -66,12 +73,18 @@
     <h2>Scripture Matching</h2>
     <p>Prayed suggests Bible verses that speak to what you wrote. This runs entirely on the device using a small language model and the full text of two public-domain translations (World English Bible and King James Version). It works in airplane mode. No text is sent anywhere to do this.</p>
 
+    <h2>Siri, Shortcuts, and Widgets</h2>
+    <p>Siri and Shortcuts can add a prayer or tell you which prayer is coming back today. The spoken answer names a title or the people you tagged, never the prayer itself, and says nothing at all while the journal lock is on. Widgets read a small summary file that Prayed writes on the device; it contains the current verse, one prayer preview, and counts, and never leaves the device.</p>
+
+    <h2>Apple Watch</h2>
+    <p>The Apple Watch app opens the same journal through your own iCloud account. It stores prayers on the watch the same way the phone does and sends nothing anywhere else.</p>
+
     <h2>Deeper Reflection</h2>
     <p>Prayed Plus can write a short reflection on a single prayer. This uses Apple Intelligence's on-device model (iOS 26 on a supported iPhone). The model reads that one prayer and the verses you kept with it, writes on the phone itself, and nothing leaves the device. You choose whether to keep the reflection with the prayer. On phones without Apple Intelligence the feature does not appear.</p>
     <p>Prayed's code also allows a reflection provider that would send text to a service. No such provider is enabled in this release. If one is ever added, it will be off by default, it will show you the exact text before anything is sent, and this policy will name the service and its retention terms first.</p>
 
     <h2>Notifications</h2>
-    <p>If you turn on the daily reminder, Prayed schedules a local notification on your device. Its text is fixed and never includes anything you wrote. During a Prayed Plus free trial, Prayed also schedules local reminders before the trial converts to a paid subscription.</p>
+    <p>If you turn on the daily reminder, Prayed schedules a local notification on your device. Its text is fixed and never includes anything you wrote. If you ask Prayed to bring a prayer back on a chosen date, it schedules a local notification for that morning that names, at most, the people you tagged. During a Prayed Plus free trial, Prayed also schedules local reminders before the trial converts to a paid subscription.</p>
 
     <h2>Purchases</h2>
     <p>Prayed Plus is sold through Apple's in-app purchase system. Prayed checks your subscription status with Apple's StoreKit on the device. The developer receives only the anonymized sales reporting Apple provides to all developers and never sees your payment details.</p>
@@ -92,7 +105,7 @@
     <h2>Contact</h2>
     <p>Questions about privacy: <a href="mailto:support@cooperindustries.cc">support@cooperindustries.cc</a>. See also the <a href="support.html">Prayed support page</a>.</p>
 
-    <div class="callout"><p>Last updated: September 2, 2026</p></div>
+    <div class="callout"><p>Last updated: September 10, 2026</p></div>
 
     <div class="updated">
       Cooper Industries · Prayed iOS · <a href="../">All apps</a>
