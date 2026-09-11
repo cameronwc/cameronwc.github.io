@@ -1,0 +1,685 @@
+[
+ {
+  "id": "anxiety",
+  "verseKeys": [
+   "PHI 4:6",
+   "PHI 4:7",
+   "MAT 6:34",
+   "1PE 5:7",
+   "ISA 41:10",
+   "PSA 94:19",
+   "JOH 14:27",
+   "PSA 55:22",
+   "ISA 26:3",
+   "MAT 11:28",
+   "PSA 46:10",
+   "PSA 34:4"
+  ]
+ },
+ {
+  "id": "fear",
+  "verseKeys": [
+   "ISA 41:10",
+   "JOS 1:9",
+   "PSA 27:1",
+   "PSA 23:4",
+   "2TI 1:7",
+   "DEU 31:8",
+   "PSA 56:3",
+   "ISA 43:1",
+   "PSA 118:6",
+   "ROM 8:15",
+   "PSA 91:4",
+   "1JO 4:18"
+  ]
+ },
+ {
+  "id": "healing",
+  "verseKeys": [
+   "JAM 5:15",
+   "PSA 103:3",
+   "JER 17:14",
+   "PSA 147:3",
+   "ISA 53:5",
+   "PSA 41:3",
+   "EXO 15:26",
+   "MAT 8:17",
+   "PSA 30:2",
+   "3JO 1:2",
+   "PSA 73:26",
+   "ISA 40:29",
+   "PSA 34:18",
+   "PSA 91:15"
+  ]
+ },
+ {
+  "id": "grief",
+  "verseKeys": [
+   "PSA 34:18",
+   "MAT 5:4",
+   "PSA 147:3",
+   "REV 21:4",
+   "JOH 11:25",
+   "PSA 23:4",
+   "2CO 1:3",
+   "2CO 1:4",
+   "ISA 61:3",
+   "PSA 30:5",
+   "1TH 4:13",
+   "JOH 14:1",
+   "PSA 116:15",
+   "LAM 3:32"
+  ]
+ },
+ {
+  "id": "provision",
+  "verseKeys": [
+   "PHI 4:19",
+   "MAT 6:31",
+   "MAT 6:33",
+   "PSA 37:25",
+   "PSA 23:1",
+   "HEB 13:5",
+   "LUK 12:24",
+   "2CO 9:8",
+   "PSA 34:10",
+   "MAT 6:26",
+   "PRO 3:9",
+   "MAL 3:10",
+   "PSA 145:15",
+   "DEU 8:18"
+  ]
+ },
+ {
+  "id": "work",
+  "verseKeys": [
+   "COL 3:23",
+   "PRO 16:3",
+   "PSA 90:17",
+   "PRO 22:29",
+   "JER 29:11",
+   "ECC 9:10",
+   "PSA 37:5",
+   "PRO 3:5",
+   "PRO 3:6",
+   "ISA 58:11",
+   "PHI 4:13",
+   "PSA 128:2",
+   "DEU 28:12",
+   "1TH 4:11"
+  ]
+ },
+ {
+  "id": "guidance",
+  "verseKeys": [
+   "PRO 3:5",
+   "PRO 3:6",
+   "JAM 1:5",
+   "PSA 32:8",
+   "ISA 30:21",
+   "PSA 119:105",
+   "PSA 25:4",
+   "PSA 25:5",
+   "JER 29:11",
+   "PRO 16:9",
+   "ISA 58:11",
+   "PSA 143:8",
+   "JOH 16:13",
+   "PSA 37:23"
+  ]
+ },
+ {
+  "id": "patience_anger",
+  "verseKeys": [
+   "JAM 1:19",
+   "JAM 1:20",
+   "PRO 15:1",
+   "EPH 4:26",
+   "PRO 16:32",
+   "COL 3:12",
+   "COL 3:13",
+   "GAL 5:22",
+   "GAL 5:23",
+   "PRO 14:29",
+   "ECC 7:9",
+   "PSA 141:3",
+   "EPH 4:31",
+   "EPH 4:32"
+  ]
+ },
+ {
+  "id": "confession",
+  "verseKeys": [
+   "1JO 1:9",
+   "PSA 51:10",
+   "PSA 51:1",
+   "PSA 51:2",
+   "PSA 103:12",
+   "ISA 1:18",
+   "ROM 8:1",
+   "PSA 32:5",
+   "MIC 7:18",
+   "MIC 7:19",
+   "LAM 3:22",
+   "LAM 3:23",
+   "HEB 4:16",
+   "EPH 1:7"
+  ]
+ },
+ {
+  "id": "repentance",
+  "verseKeys": [
+   "ACT 3:19",
+   "JOE 2:12",
+   "JOE 2:13",
+   "2CH 7:14",
+   "EZE 36:26",
+   "PSA 51:17",
+   "LUK 15:20",
+   "JAM 4:8",
+   "ISA 55:7",
+   "ROM 2:4",
+   "REV 3:19",
+   "HOS 6:1",
+   "PSA 80:3",
+   "JER 24:7"
+  ]
+ },
+ {
+  "id": "gratitude",
+  "verseKeys": [
+   "1TH 5:18",
+   "PSA 100:4",
+   "PSA 118:24",
+   "JAM 1:17",
+   "PSA 103:2",
+   "COL 3:15",
+   "PSA 136:1",
+   "PSA 107:1",
+   "PHI 4:6",
+   "PSA 9:1",
+   "EPH 5:20",
+   "PSA 92:1",
+   "LAM 3:22",
+   "PSA 65:9"
+  ]
+ },
+ {
+  "id": "marriage",
+  "verseKeys": [
+   "EPH 4:2",
+   "EPH 4:3",
+   "1CO 13:4",
+   "1CO 13:7",
+   "COL 3:14",
+   "ECC 4:12",
+   "EPH 5:25",
+   "1PE 3:7",
+   "PRO 18:22",
+   "MAR 10:9",
+   "COL 3:13",
+   "1PE 4:8",
+   "SOL 8:7",
+   "GEN 2:24"
+  ]
+ },
+ {
+  "id": "children",
+  "verseKeys": [
+   "PRO 22:6",
+   "ISA 54:13",
+   "PSA 127:3",
+   "DEU 6:6",
+   "DEU 6:7",
+   "3JO 1:4",
+   "LUK 15:20",
+   "PSA 103:17",
+   "ISA 49:25",
+   "MAT 19:14",
+   "PRO 29:17",
+   "PSA 78:4",
+   "JER 31:17",
+   "MAR 10:14"
+  ]
+ },
+ {
+  "id": "family",
+  "verseKeys": [
+   "PSA 133:1",
+   "ROM 12:18",
+   "EPH 4:32",
+   "COL 3:13",
+   "JOS 24:15",
+   "PRO 15:1",
+   "1PE 3:8",
+   "EPH 6:2",
+   "EPH 6:3",
+   "PSA 68:6",
+   "MAT 5:9",
+   "ROM 12:10",
+   "EXO 20:12",
+   "PRO 17:17"
+  ]
+ },
+ {
+  "id": "pregnancy",
+  "verseKeys": [
+   "PSA 127:3",
+   "PSA 139:13",
+   "PSA 139:14",
+   "1SA 1:27",
+   "GEN 21:1",
+   "PSA 113:9",
+   "ISA 44:24",
+   "JER 1:5",
+   "LUK 1:37",
+   "PSA 22:10",
+   "GEN 25:21",
+   "PSA 128:3",
+   "ISA 40:11",
+   "LUK 1:45"
+  ]
+ },
+ {
+  "id": "loneliness",
+  "verseKeys": [
+   "DEU 31:6",
+   "PSA 68:6",
+   "ISA 41:10",
+   "MAT 28:20",
+   "PSA 25:16",
+   "HEB 13:5",
+   "PSA 139:7",
+   "PSA 139:9",
+   "PSA 139:10",
+   "PSA 27:10",
+   "JOH 14:18",
+   "PSA 73:23",
+   "ZEP 3:17",
+   "ISA 43:2"
+  ]
+ },
+ {
+  "id": "depression",
+  "verseKeys": [
+   "PSA 42:11",
+   "PSA 34:18",
+   "PSA 40:2",
+   "ISA 40:31",
+   "PSA 30:5",
+   "PSA 3:3",
+   "2CO 4:8",
+   "2CO 4:9",
+   "PSA 143:7",
+   "PSA 143:8",
+   "ROM 15:13",
+   "PSA 62:5",
+   "ISA 61:3",
+   "PSA 13:5",
+   "LAM 3:21"
+  ]
+ },
+ {
+  "id": "strength",
+  "verseKeys": [
+   "ISA 40:31",
+   "PHI 4:13",
+   "PSA 46:1",
+   "2CO 12:9",
+   "ISA 40:29",
+   "PSA 73:26",
+   "NEH 8:10",
+   "PSA 28:7",
+   "EXO 15:2",
+   "EPH 6:10",
+   "PSA 18:2",
+   "HAB 3:19",
+   "ISA 12:2",
+   "PSA 138:3"
+  ]
+ },
+ {
+  "id": "faith_doubt",
+  "verseKeys": [
+   "MAR 9:24",
+   "HEB 11:1",
+   "2CO 5:7",
+   "HEB 11:6",
+   "ROM 10:17",
+   "MAT 17:20",
+   "PRO 3:5",
+   "JAM 1:6",
+   "JOH 20:29",
+   "PSA 13:1",
+   "LUK 17:5",
+   "ISA 7:9",
+   "HAB 2:4",
+   "PSA 27:13"
+  ]
+ },
+ {
+  "id": "waiting",
+  "verseKeys": [
+   "PSA 27:14",
+   "ISA 40:31",
+   "LAM 3:25",
+   "LAM 3:26",
+   "PSA 130:5",
+   "HAB 2:3",
+   "PSA 37:7",
+   "MIC 7:7",
+   "ROM 8:25",
+   "PSA 13:1",
+   "PSA 40:1",
+   "ECC 3:1",
+   "GAL 6:9",
+   "2PE 3:9"
+  ]
+ },
+ {
+  "id": "forgiveness_others",
+  "verseKeys": [
+   "MAT 6:14",
+   "EPH 4:32",
+   "COL 3:13",
+   "MAT 18:21",
+   "MAT 18:22",
+   "LUK 6:37",
+   "MAR 11:25",
+   "ROM 12:19",
+   "HEB 12:15",
+   "LUK 23:34",
+   "PRO 19:11",
+   "1PE 3:9",
+   "ROM 12:17",
+   "MAT 5:44"
+  ]
+ },
+ {
+  "id": "temptation",
+  "verseKeys": [
+   "1CO 10:13",
+   "JAM 4:7",
+   "MAT 26:41",
+   "HEB 4:15",
+   "HEB 2:18",
+   "PSA 119:11",
+   "GAL 5:16",
+   "JAM 1:12",
+   "2PE 2:9",
+   "ROM 6:14",
+   "EPH 6:11",
+   "PSA 141:4",
+   "1PE 5:8",
+   "MAT 6:13"
+  ]
+ },
+ {
+  "id": "protection",
+  "verseKeys": [
+   "PSA 91:11",
+   "PSA 121:7",
+   "PSA 121:8",
+   "PSA 4:8",
+   "PRO 18:10",
+   "PSA 91:1",
+   "PSA 91:2",
+   "2TH 3:3",
+   "PSA 32:7",
+   "ISA 54:17",
+   "PSA 34:7",
+   "PSA 46:1",
+   "PSA 18:2",
+   "DEU 31:6"
+  ]
+ },
+ {
+  "id": "peace_rest",
+  "verseKeys": [
+   "MAT 11:28",
+   "MAT 11:29",
+   "PSA 46:10",
+   "PSA 4:8",
+   "JOH 14:27",
+   "ISA 26:3",
+   "PSA 23:2",
+   "PSA 62:1",
+   "EXO 33:14",
+   "PSA 127:2",
+   "PHI 4:7",
+   "MAR 6:31",
+   "PSA 116:7",
+   "ISA 30:15"
+  ]
+ },
+ {
+  "id": "church_community",
+  "verseKeys": [
+   "HEB 10:24",
+   "HEB 10:25",
+   "ACT 2:42",
+   "GAL 6:2",
+   "ROM 12:4",
+   "ROM 12:5",
+   "1CO 12:27",
+   "EPH 4:16",
+   "COL 3:16",
+   "1TH 5:11",
+   "MAT 18:20",
+   "PSA 133:1",
+   "JAM 5:16",
+   "PHI 2:4"
+  ]
+ },
+ {
+  "id": "wisdom",
+  "verseKeys": [
+   "JAM 1:5",
+   "PRO 2:6",
+   "PRO 3:13",
+   "PRO 9:10",
+   "COL 1:9",
+   "PSA 90:12",
+   "PRO 4:7",
+   "ECC 7:12",
+   "JAM 3:17",
+   "PRO 16:16",
+   "1KI 3:9",
+   "PSA 119:66",
+   "PRO 19:20",
+   "LUK 21:15"
+  ]
+ },
+ {
+  "id": "home",
+  "verseKeys": [
+   "PSA 127:1",
+   "JOS 24:15",
+   "PRO 24:3",
+   "PRO 24:4",
+   "PSA 91:1",
+   "MAT 7:24",
+   "MAT 7:25",
+   "ISA 32:18",
+   "PSA 84:3",
+   "PRO 3:33",
+   "DEU 6:9",
+   "HEB 11:9",
+   "HEB 11:10",
+   "JOH 14:2"
+  ]
+ },
+ {
+  "id": "aging_parents",
+  "verseKeys": [
+   "ISA 46:4",
+   "PSA 71:9",
+   "PSA 92:14",
+   "PRO 16:31",
+   "PSA 90:10",
+   "EXO 20:12",
+   "1TI 5:4",
+   "PSA 71:18",
+   "ISA 40:11",
+   "PSA 37:25",
+   "PSA 103:5",
+   "RUT 1:16",
+   "JOB 12:12",
+   "PSA 48:14"
+  ]
+ },
+ {
+  "id": "school_students",
+  "verseKeys": [
+   "PRO 1:7",
+   "PRO 2:6",
+   "JAM 1:5",
+   "PHI 4:13",
+   "PSA 32:8",
+   "COL 3:23",
+   "PRO 16:3",
+   "2TI 2:15",
+   "ISA 54:13",
+   "DAN 1:17",
+   "PRO 18:15",
+   "JOS 1:9",
+   "PSA 119:66",
+   "PRO 4:13"
+  ]
+ },
+ {
+  "id": "salvation_others",
+  "verseKeys": [
+   "2PE 3:9",
+   "1TI 2:4",
+   "LUK 15:7",
+   "JOH 6:44",
+   "ROM 10:1",
+   "EZE 36:26",
+   "ACT 16:31",
+   "2CO 4:4",
+   "JOH 3:16",
+   "LUK 19:10",
+   "ROM 10:13",
+   "EZE 34:16",
+   "ISA 55:11",
+   "1TI 2:1"
+  ]
+ },
+ {
+  "id": "praise",
+  "verseKeys": [
+   "PSA 145:3",
+   "PSA 150:6",
+   "PSA 103:1",
+   "PSA 100:1",
+   "PSA 100:2",
+   "REV 4:11",
+   "PSA 96:4",
+   "PSA 34:1",
+   "PSA 8:1",
+   "PSA 95:1",
+   "1CH 16:34",
+   "PSA 63:3",
+   "PSA 86:12",
+   "ISA 6:3"
+  ]
+ },
+ {
+  "id": "justice_world",
+  "verseKeys": [
+   "MIC 6:8",
+   "ISA 1:17",
+   "PSA 82:3",
+   "PSA 82:4",
+   "PRO 31:8",
+   "PRO 31:9",
+   "MAT 25:40",
+   "ISA 58:6",
+   "ISA 58:7",
+   "PSA 146:7",
+   "AMO 5:24",
+   "PSA 9:9",
+   "JAM 1:27",
+   "ZEC 7:9",
+   "PSA 46:9"
+  ]
+ },
+ {
+  "id": "sickness_serious",
+  "verseKeys": [
+   "PSA 41:3",
+   "PSA 91:15",
+   "ISA 43:2",
+   "PSA 23:4",
+   "2CO 4:16",
+   "2CO 4:17",
+   "PSA 73:26",
+   "ROM 8:38",
+   "ROM 8:39",
+   "PSA 62:8",
+   "ISA 41:13",
+   "PSA 116:1",
+   "PSA 118:17",
+   "JAM 5:14",
+   "PSA 34:19"
+  ]
+ },
+ {
+  "id": "new_baby_birth",
+  "verseKeys": [
+   "PSA 127:3",
+   "PSA 139:13",
+   "PSA 139:14",
+   "NUM 6:24",
+   "NUM 6:25",
+   "NUM 6:26",
+   "ISA 54:13",
+   "PRO 22:6",
+   "LUK 2:52",
+   "PSA 22:10",
+   "3JO 1:4",
+   "JER 1:5",
+   "PSA 8:2",
+   "PSA 78:4"
+  ]
+ },
+ {
+  "id": "purpose_calling",
+  "verseKeys": [
+   "JER 29:11",
+   "EPH 2:10",
+   "ROM 8:28",
+   "PRO 19:21",
+   "PSA 138:8",
+   "PHI 1:6",
+   "MIC 6:8",
+   "COL 3:23",
+   "ISA 6:8",
+   "MAT 28:19",
+   "1PE 4:10",
+   "PSA 57:2",
+   "ROM 12:2",
+   "EST 4:14"
+  ]
+ },
+ {
+  "id": "self_control_habits",
+  "verseKeys": [
+   "GAL 5:22",
+   "GAL 5:23",
+   "1CO 9:27",
+   "PRO 25:28",
+   "2TI 1:7",
+   "TIT 2:12",
+   "1CO 6:12",
+   "ROM 12:1",
+   "PRO 16:32",
+   "COL 3:2",
+   "1CO 10:31",
+   "PHI 4:8",
+   "PSA 90:12",
+   "PRO 21:5"
+  ]
+ }
+]

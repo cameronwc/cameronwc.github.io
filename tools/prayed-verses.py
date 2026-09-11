@@ -48,6 +48,10 @@ def main():
         out[k] = body
     json.dump({"translation": "WEB", "books": dict(BOOKS), "verses": out}, open(OUT, "w"), indent=1, ensure_ascii=False)
     print(f"wrote {OUT}: {len(out)} verses")
+    # The app's curated topic -> verse map, so guides use the verses the app itself would match.
+    tout = os.path.join(HERE, "prayed", "topics.json")
+    json.dump([{"id": t["id"], "verseKeys": t["verseKeys"]} for t in topics], open(tout, "w"), indent=1)
+    print(f"wrote {tout}: {len(topics)} topics")
 
 if __name__ == "__main__":
     main()
