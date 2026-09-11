@@ -11,3 +11,4 @@ jobs:
       - uses: actions/setup-python@v5
         with: { python-version: "3.12" }
       - run: python3 tools/site-check.py
+      - run: python3 tools/prayed-guide-check.py

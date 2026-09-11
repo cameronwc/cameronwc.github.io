@@ -1,0 +1,81 @@
+{
+  "order": 9,
+  "slug": "how-to-keep-a-prayer-journal",
+  "title": "How to Keep a Prayer Journal That You Actually Come Back To | Prayed",
+  "headline": "How to keep a prayer journal you will still be using in a year",
+  "dek": "The four habits that make a prayer journal last: write short, date everything, mark what happened, and read it back. With the verses that explain why each one matters.",
+  "desc": "How to keep a prayer journal that lasts: write short, date every prayer, mark what happened, and read it back on a rhythm. Eight Bible verses from the World English Bible on remembering and waiting, and what to do with a journal that has gone quiet.",
+  "card": "The four habits that make a prayer journal last, and the verses that explain why each one matters.",
+  "category": "Practice",
+  "about": "how to keep a prayer journal",
+  "date": "2026-09-11",
+  "intro": [
+    "Most prayer journals die in the second week. Not because the person stopped praying, but because the journal asked too much: a full page every morning, in good handwriting, with a verse and a reflection and a plan. By day ten it has become one more thing you are failing at, and the kindest thing is to put it in a drawer.",
+    "A prayer journal that lasts is built the other way round. It asks for very little each day and gives back a great deal over a year. This guide covers the four habits that make the difference, and pairs each with a verse from the World English Bible, because the reasons for keeping a record are older than the notebook.",
+    "The short version: write short, date everything, mark what happened, and read it back. Everything else is optional."
+  ],
+  "sections": [
+    {
+      "h2": "Write short",
+      "paras": [
+        "A prayer journal is not a diary and it is not a devotional. It is a list of things you asked God for, in your own words, one or two sentences each. Please heal my mother. Help me not to be afraid on Thursday. Thank you for the rain. That is a complete entry. The shorter the entry, the more likely there will be another tomorrow.",
+        "Scripture's own prayers are mostly brief. The Psalms that run long are songs; the prayers in the middle of them are a line or two."
+      ],
+      "verses": [
+        {"key": "PSA 56:3", "note": "Seven words. A complete prayer, and a complete journal entry."},
+        {"key": "JER 17:14", "note": "Two sentences. Most of what you need to say to God fits in two sentences, and the journal that accepts two sentences is the one you keep."}
+      ],
+      "pray": "Help me keep this short enough to keep."
+    },
+    {
+      "h2": "Date everything",
+      "paras": [
+        "The date is the most important thing in the entry, more than the words. An undated prayer is a thought. A dated prayer is a record, and a record can be checked against what happened. Without the date you cannot see that you prayed for the job three weeks before the call, or that the fear you wrote down in March was gone by June.",
+        "If you are starting a journal now with prayers you have been carrying for years, backdate them. Write down the thing you have been praying for since 2023 and put 2023 on it. The history starts coming back immediately."
+      ],
+      "verses": [
+        {"key": "PSA 40:1", "note": "I waited patiently. He turned to me. There is a before and an after in this verse, and the psalmist can only say it because he remembers the before."},
+        {"key": "HAB 2:3", "note": "For the appointed time. Though it takes time, wait for it. The date on the prayer is how you find out what the appointed time turned out to be."}
+      ],
+      "pray": "I have been praying this since before I started writing things down. I am putting the real date on it. Let me see, later, how long you have been working on it."
+    },
+    {
+      "h2": "Mark what happened",
+      "paras": [
+        "This is the habit almost every prayer journal skips, and it is the one that makes the journal worth keeping. Every prayer needs a second entry, later: what came of it. Answered. Still waiting. Let go. Without that second mark, the journal is only a list of requests, and reading it back feels like reading unanswered mail.",
+        "Four states are enough. Open, for the new prayer. Ongoing, for the thing you are still carrying. Answered, for the day you can say so. Released, for the prayer you have stopped asking, not because it was answered but because you have handed it over. Released is not failure. It is the other kind of answer."
+      ],
+      "verses": [
+        {"key": "PSA 103:2", "note": "Don't forget all his benefits. The command assumes you will forget unless you do something about it. Marking a prayer answered is the something."},
+        {"key": "PSA 34:4", "note": "I sought, he answered, he delivered. Three verbs in the past tense. The psalmist kept the record."}
+      ],
+      "pray": "Give me the honesty to mark what actually happened, including the prayers that were not answered the way I asked. And give me the eyes to notice the ones that were."
+    },
+    {
+      "h2": "Read it back",
+      "paras": [
+        "A journal you never reread is a diary you are keeping for no one. The whole return on a prayer journal comes from reading old entries, and the practical problem is that no one does it. The notebook sits on the shelf. The app sits in the folder.",
+        "The fix is a rhythm that does not depend on your remembering. Read last week's prayers each Sunday. Read the ones from a month ago at the start of a new month. Once a year, read the whole year. The ladder that works for most people is three days, a week, a month, a year, because it catches both the fast answers and the slow ones.",
+        "If the rhythm is the part you cannot keep, let something keep it for you. That is the one thing an app can do that a notebook cannot: hand you the prayer from a year ago on the morning it is a year old, without your having to go looking."
+      ],
+      "verses": [
+        {"key": "PSA 78:4", "note": "Telling the next generation what he has done. You cannot tell what you did not keep. The reread is what turns a journal into a testimony."},
+        {"key": "LAM 3:25", "note": "Good to those who wait. Reading the journal back is how you see the waiting was not empty."}
+      ],
+      "pray": "Bring the old prayers back to me. I will not go looking on my own. Put them in front of me at the right time, and let me see what you did."
+    },
+    {
+      "h2": "When the journal goes quiet",
+      "paras": [
+        "It will. Everyone's does. You will miss a week, then a month, and the temptation is to feel that the journal is now a record of your failure and to start a new one, or none. Do not. A prayer journal with gaps is still a prayer journal, and the gap is itself honest: that was a season you did not have words. Pick it up, write one line, date it, and carry on. There is no streak to protect, and no one is counting."
+      ],
+      "verses": []
+    }
+  ],
+  "closing_h2": "What Prayed does with all this",
+  "closing": [
+    "Prayed is a prayer journal for iPhone built around exactly these four habits, and nothing else. Entries are short by design. Every prayer is dated, and you can backdate the ones you have been carrying. Each has a status, open, ongoing, answered or released, and the answered ones build into a timeline you can scroll on a hard day. And the reading back is done for you: each prayer comes back at three days, a week, two weeks, a month, three months, six months, a year and two years, with a weekly review of everything still open.",
+    "After you save a prayer, it matches three verses from the same Bible quoted on this page, on the phone itself; nothing you write is ever sent anywhere. There is no account. Writing is free forever, and the free plan brings back the last thirty days.",
+    "Or use a notebook. The habits are the point, not the tool. Write short, date it, mark what happened, read it back."
+  ]
+}

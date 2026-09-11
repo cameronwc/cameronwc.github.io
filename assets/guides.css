@@ -67,3 +67,12 @@ figure.pose.pair figcaption { grid-column: 1 / -1; }
   .guide-list, figure.pose.pair { grid-template-columns: 1fr; }
   .app-cta { grid-template-columns: 1fr; }
 }
+
+/* Prayed verse cards: scripture quoted verbatim from the app's World English Bible text. */
+.verse-card { background: var(--surface); border: 1px solid var(--border); border-left: 4px solid var(--accent); border-radius: 0 14px 14px 0; padding: 18px 22px; margin: 22px 0; }
+.verse-card .text { font-family: var(--font-display, Georgia, serif); font-size: 21px; line-height: 1.45; margin: 0 0 8px; }
+.verse-card .ref { font-size: 13px; color: var(--accent-text); letter-spacing: .04em; margin: 0; }
+.verse-card .note { font-size: 16px; color: var(--muted); margin: 10px 0 0; }
+.pray-this { background: var(--surface); border: 1px dashed var(--border); border-radius: 12px; padding: 16px 20px; margin: 26px 0; }
+.pray-this h3 { margin: 0 0 8px; font-size: 16px; text-transform: uppercase; letter-spacing: .08em; color: var(--muted); }
+.pray-this p { font-family: var(--font-display, Georgia, serif); font-size: 19px; line-height: 1.5; margin: 0; font-style: italic; }

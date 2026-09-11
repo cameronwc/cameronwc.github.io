@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="color-scheme" content="light">
+  <title>{{TITLE}}</title>
+  <meta name="description" content="{{DESC}}">
+  <link rel="canonical" href="https://cooperindustries.cc/prayed/guides/{{SLUG}}/">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Prayed">
+  <meta property="og:title" content="{{TITLE}}">
+  <meta property="og:description" content="{{DESC}}">
+  <meta property="og:image" content="https://cooperindustries.cc/prayed/marketing/og.png">
+  <meta property="og:url" content="https://cooperindustries.cc/prayed/guides/{{SLUG}}/">
+  <meta property="article:published_time" content="{{DATE}}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="{{TITLE}}">
+  <meta name="twitter:description" content="{{DESC}}">
+  <meta name="twitter:image" content="https://cooperindustries.cc/prayed/marketing/og.png">
+  <link rel="icon" type="image/png" href="../../logo.png">
+  <link rel="apple-touch-icon" href="../../logo.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="../../../assets/marketing.css">
+  <link rel="stylesheet" href="../../../assets/guides.css">
+  <style>
+    :root {
+      --font-display: "Newsreader", "New York", "Iowan Old Style", Palatino, Georgia, serif;
+      --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Inter", Helvetica, Arial, sans-serif;
+      --display-weight: 500; --display-tracking: -0.01em;
+      --bg: #f6f1e8; --surface: #fdfbf7; --text: #292420; --muted: #6f665c; --border: #dbd1c2;
+      --accent: #b0664a; --accent-text: #a05a40; --accent-dim: rgba(176,102,74,.12); --on-accent: #ffffff;
+      --olive: #5c6b45;
+    }
+    .article h1, .article h2 { font-weight: 500; }
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{{HEADLINE}}",
+    "description": "{{DESC}}",
+    "image": "https://cooperindustries.cc/prayed/marketing/og.png",
+    "datePublished": "{{DATE}}",
+    "dateModified": "{{DATE}}",
+    "author": { "@type": "Organization", "name": "Prayed", "url": "https://cooperindustries.cc/prayed/marketing/" },
+    "publisher": { "@type": "Organization", "name": "Cooper Industries", "url": "https://cooperindustries.cc/", "logo": { "@type": "ImageObject", "url": "https://cooperindustries.cc/prayed/logo.png" } },
+    "mainEntityOfPage": "https://cooperindustries.cc/prayed/guides/{{SLUG}}/",
+    "about": "{{ABOUT}}",
+    "isPartOf": { "@type": "WebSite", "name": "Prayed guides", "url": "https://cooperindustries.cc/prayed/guides/" }
+  }
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <nav class="top">
+      <a class="brand" href="../../marketing/"><img src="../../logo.png" alt="" width="34" height="34">Prayed</a>
+      <div class="links">
+        <a href="../">Guides</a>
+        <a href="../../marketing/#features">How it works</a>
+        <a href="../../marketing/#pricing">Pricing</a>
+        <a href="../../support.html">Support</a>
+        <a class="btn" href="https://apps.apple.com/us/app/id6808304184?ct=guide-{{SLUG}}&amp;mt=8">Get the app</a>
+      </div>
+    </nav>
+
+    <article class="article">
+      <div class="eyebrow"><a href="../">Guides</a> · {{CATEGORY}}</div>
+      <h1>{{HEADLINE}}</h1>
+      <p class="dek">{{DEK}}</p>
+      <div class="meta"><span>{{DATE_HUMAN}}</span><span>{{READ_MIN}} min read</span><span>{{VERSE_COUNT}} verses, World English Bible</span></div>
+
+{{BODY}}
+
+      <div class="app-cta">
+        <img src="../../logo.png" alt="" width="96" height="96">
+        <div>
+          <h3>Write the prayer. Prayed finds the verses.</h3>
+          <p>Prayed is a private prayer journal for iPhone. Write what you're praying for and it matches three verses from the same Bible quoted above, on your phone, then brings the prayer back to you at three days, a week, a month and a year so you see what came of it. No account, no server. Writing is free forever.</p>
+          <a class="btn" href="https://apps.apple.com/us/app/id6808304184?ct=guide-{{SLUG}}-cta&amp;mt=8">Get Prayed on the App Store</a>
+        </div>
+      </div>
+
+      <div class="related">
+        <h3>More guides</h3>
+        <ul>
+{{RELATED}}
+        </ul>
+      </div>
+    </article>
+
+    <footer>
+      <div>© 2026 Cooper Industries · Prayed</div>
+      <div class="flinks">
+        <a href="../">Guides</a>
+        <a href="../../">Privacy Policy</a>
+        <a href="../../support.html">Support</a>
+        <a href="https://cooperindustries.cc/">Cooper Industries</a>
+      </div>
+    </footer>
+  </div>
+  <script src="../../../assets/marketing.js" defer></script>
+</body>
+</html>
