@@ -94,6 +94,20 @@ def render_guide(g, all_guides):
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(page)
     print(f"{g['slug']}: {n_words} words, {verse_count(g)} verses")
 
+def sync_site_lists(guides):
+    """Keep sitemap.xml and llms.txt in step with the guide set (idempotent)."""
+    base = "https://cooperindustries.cc/prayed/guides/"
+    sm = os.path.join(SITE, "sitemap.xml"); s = open(sm, encoding="utf-8").read()
+    s = re.sub(r"  <url><loc>" + re.escape(base) + r"[^<]*</loc>[^\n]*\n", "", s)
+    lines = f"  <url><loc>{base}</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>\n" + "".join(
+        f"  <url><loc>{base}{g['slug']}/</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>\n" for g in guides)
+    open(sm, "w", encoding="utf-8").write(s.replace("</urlset>", lines + "</urlset>"))
+    lp = os.path.join(SITE, "llms.txt"); t = open(lp, encoding="utf-8").read()
+    block = "## Prayed guides\n\nFree prayer guides, every verse quoted from the World English Bible: " + base + "\n" + "".join(
+        f"- {base}{g['slug']}/\n" for g in guides) + "\n"
+    t = re.sub(r"## Prayed guides\n.*?(?=## )", block, t, flags=re.S)
+    open(lp, "w", encoding="utf-8").write(t)
+
 INDEX_HEAD = """<!doctype html>
 <html lang="en">
 <head>
@@ -200,3 +214,4 @@ if __name__ == "__main__":
         if not only or g["slug"] == only:
             render_guide(g, guides)
     render_index(guides)
+    sync_site_lists(guides)

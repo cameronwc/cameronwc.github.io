@@ -3,7 +3,7 @@
 every figure carries the right caption, internal links resolve, prose length in range."""
 import html, json, os, re, sys
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-data = json.load(open(os.path.expanduser("~/Dev/prompted-content/dist/guides_data.json")))
+data = json.load(open(os.path.join(os.environ.get("PROMPTED_CONTENT") or os.path.expanduser("~/Dev/prompted-content"), "dist", "guides_data.json")))
 texts = {html.unescape(pr["text"]).strip() for p in data["poses"] for pr in p["prompts"]}
 by_slug = {p["slug"]: p for p in data["poses"]}
 root = os.path.join(SITE, "prompted", "guides")

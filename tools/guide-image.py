@@ -7,8 +7,8 @@ rights-excluded pose (ACTNATURALLY_PHOTOS etc). A slug not in that file is refus
 AI images always get the visible caption "AI-generated posing reference."; real
 photographs get the photographer credit when the record carries one.
 """
-import json, os, subprocess, sys
-CONTENT = os.path.expanduser("~/Dev/prompted-content")
+import json, os, shutil, subprocess, sys
+CONTENT = os.environ.get("PROMPTED_CONTENT") or os.path.expanduser("~/Dev/prompted-content")
 SITE = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 data = json.load(open(os.path.join(CONTENT, "dist", "guides_data.json")))
 by_slug = {p["slug"]: p for p in data["poses"]}
@@ -22,8 +22,12 @@ def figure(slug, alt=None):
     os.makedirs(out_dir, exist_ok=True)
     out = os.path.join(out_dir, f"{slug}.jpg")
     if not os.path.exists(out):
-        subprocess.run(["sips", "-Z", "1200", "-s", "format", "jpeg", "-s", "formatOptions", "82", src, "--out", out],
-                       check=True, capture_output=True)
+        if shutil.which("sips"):
+            subprocess.run(["sips", "-Z", "1200", "-s", "format", "jpeg", "-s", "formatOptions", "82", src, "--out", out],
+                           check=True, capture_output=True)
+        else:  # Linux (cloud routines): same size and quality via Pillow
+            from PIL import Image
+            im = Image.open(src).convert("RGB"); im.thumbnail((1200, 1200)); im.save(out, "JPEG", quality=82)
     title = p["title"]
     alt = alt or f"{title}: posing reference"
     if p["image_source"] == "photo":
