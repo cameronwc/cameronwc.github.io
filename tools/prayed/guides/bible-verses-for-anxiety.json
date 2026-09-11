@@ -21,10 +21,25 @@
         "Most anxious prayer stalls at the first step, which is admitting the thing is too heavy. These are the verses that give you permission to set it down. Notice that none of them promise the problem goes away. They promise that you are not holding it alone."
       ],
       "verses": [
-        {"key": "1PE 5:7", "note": "Half a sentence, and the whole argument is in the second half. The reason you can cast the worry is not that it is small. It is that he cares."},
-        {"key": "PSA 55:22", "note": "The word is burden, not sin or failure. Whatever you are carrying qualifies."},
-        {"keys": ["PHI 4:6", "PHI 4:7"], "note": "Read the order carefully: prayer, then petition, then thanksgiving, then peace. The peace comes after the asking, and it guards rather than explains."},
-        {"key": "MAT 11:28", "note": "Jesus does not ask the burdened to sort themselves out first. Come is the whole instruction."}
+        {
+          "key": "1PE 5:7",
+          "note": "Half a sentence, and the whole argument is in the second half. The reason you can cast the worry is not that it is small. It is that he cares."
+        },
+        {
+          "key": "PSA 55:22",
+          "note": "The word is burden, not sin or failure. Whatever you are carrying qualifies."
+        },
+        {
+          "keys": [
+            "PHI 4:6",
+            "PHI 4:7"
+          ],
+          "note": "Read the order carefully: prayer, then petition, then thanksgiving, then peace. The peace comes after the asking, and it guards rather than explains."
+        },
+        {
+          "key": "MAT 11:28",
+          "note": "Jesus does not ask the burdened to sort themselves out first. Come is the whole instruction."
+        }
       ],
       "pray": "I am carrying more than I can hold tonight. I am not going to list it all, you already know. I am putting it down in front of you because you said I could. Keep it while I sleep."
     },
@@ -34,9 +49,18 @@
         "There is a specific kind of anxiety that is not about any one thing. It is the mind running, checking, rehearsing. Two of these verses are about tomorrow, because that is where the running mind lives. The third is about the noise itself."
       ],
       "verses": [
-        {"key": "MAT 6:34", "note": "Not a promise that tomorrow will be fine. A limit on how much of it you are asked to carry today."},
-        {"key": "PSA 94:19", "note": "The psalmist does not pretend the multitude of thoughts is gone. He says comfort arrived in the middle of them."},
-        {"key": "ISA 26:3", "note": "Steadfast does not mean calm. It means pointed in one direction. You can be shaking and still be steadfast."}
+        {
+          "key": "MAT 6:34",
+          "note": "Not a promise that tomorrow will be fine. A limit on how much of it you are asked to carry today."
+        },
+        {
+          "key": "PSA 94:19",
+          "note": "The psalmist does not pretend the multitude of thoughts is gone. He says comfort arrived in the middle of them."
+        },
+        {
+          "key": "ISA 26:3",
+          "note": "Steadfast does not mean calm. It means pointed in one direction. You can be shaking and still be steadfast."
+        }
       ],
       "pray": "My mind will not be quiet. I keep rehearsing things that have not happened. Give me today only, and enough peace for it. Keep my thoughts turned toward you even while they race."
     },
@@ -46,9 +70,18 @@
         "Some anxiety has a date on it. The scan, the meeting, the conversation you have been putting off. These verses are for the days before. They were written to people who were also waiting for something hard."
       ],
       "verses": [
-        {"key": "ISA 41:10", "note": "Five promises in one verse: with you, your God, strengthen, help, uphold. Written to a nation in exile, not to people whose lives were going well."},
-        {"key": "JOH 14:27", "note": "Said on the night before the crucifixion, to men who were about to be terrified. Not as the world gives is the point. This peace does not depend on the outcome."},
-        {"key": "PSA 34:4", "note": "Past tense. Somebody has already prayed this and had it answered. You are not the first."}
+        {
+          "key": "ISA 41:10",
+          "note": "Five promises in one verse: with you, your God, strengthen, help, uphold. Written to a nation in exile, not to people whose lives were going well."
+        },
+        {
+          "key": "JOH 14:27",
+          "note": "Said on the night before the crucifixion, to men who were about to be terrified. Not as the world gives is the point. This peace does not depend on the outcome."
+        },
+        {
+          "key": "PSA 34:4",
+          "note": "Past tense. Somebody has already prayed this and had it answered. You are not the first."
+        }
       ],
       "pray": "Thursday is coming and I am afraid of it. You know what is in that room before I do. Go ahead of me. Whatever the answer is, be with me when I hear it."
     },
@@ -58,7 +91,10 @@
         "The last verse is the one most people know, and it is worth reading in full rather than on a mug. It is not a suggestion to relax. It is a command from a God who is going to be exalted regardless, which is exactly why you can stop."
       ],
       "verses": [
-        {"key": "PSA 46:10", "note": "Be still is the instruction. Know that I am God is the reason. The rest of the verse is the guarantee that the outcome does not rest on you."}
+        {
+          "key": "PSA 46:10",
+          "note": "Be still is the instruction. Know that I am God is the reason. The rest of the verse is the guarantee that the outcome does not rest on you."
+        }
       ],
       "pray": "Be still. I am saying it to myself because you said it first. You are God. I am not. Let that be enough for the next ten minutes."
     }
@@ -68,5 +104,6 @@
     "Anxious prayers have a particular problem: you forget you prayed them. The thing you were terrified of on a Tuesday in March resolves, or does not, and either way the prayer is gone, and with it the evidence that you were carried through. Six months later the same fear returns and you meet it as if for the first time.",
     "This is the reason to write prayers down rather than only think them. A dated prayer is a record you can be shown again. Prayed does this on purpose: write the prayer, and it brings it back to you at three days, a week, a month and a year, so you can see what you asked for beside what came of it. Nothing you write leaves your phone, which matters more for this kind of prayer than for most.",
     "If you only take one thing from this page, take the habit. Pick one verse above, write the prayer beneath it in your own words, and date it. Then let it come back to you."
-  ]
+  ],
+  "ppid": "8091158c-f6df-49b6-99e5-ad2db467d367"
 }

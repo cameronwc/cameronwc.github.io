@@ -89,6 +89,8 @@ def render_guide(g, all_guides):
         "VERSE_COUNT": str(verse_count(g)), "BODY": body, "RELATED": related,
     }.items():
         page = page.replace("{{" + k + "}}", v)
+    if g.get("ppid"):  # App Store custom product page for this topic
+        page = page.replace("https://apps.apple.com/us/app/id6808304184?ct=", f"https://apps.apple.com/us/app/id6808304184?ppid={g['ppid']}&amp;ct=")
     assert "{{" not in page, "unfilled placeholder"
     d = os.path.join(OUT, g["slug"]); os.makedirs(d, exist_ok=True)
     open(os.path.join(d, "index.html"), "w", encoding="utf-8").write(page)

@@ -21,10 +21,22 @@
         "When they are little the prayers are simple: keep them safe, keep them well, let them know they are loved. Scripture has a high view of small children, higher than most adults do, and these verses say so."
       ],
       "verses": [
-        {"key": "PSA 127:3", "note": "A heritage, a reward. On the nights when they feel more like a siege, the verse is still true."},
-        {"key": "MAT 19:14", "note": "Jesus wanted the small children near him when the adults were shooing them off. Your child is not a distraction from the Kingdom."},
-        {"key": "MAR 10:14", "note": "Moved with indignation, this time, at the ones who would keep children away. The same scene, with the anger left in."},
-        {"key": "ISA 54:13", "note": "Taught by the LORD. Their peace will be great. A promise to hold over a sleeping child."}
+        {
+          "key": "PSA 127:3",
+          "note": "A heritage, a reward. On the nights when they feel more like a siege, the verse is still true."
+        },
+        {
+          "key": "MAT 19:14",
+          "note": "Jesus wanted the small children near him when the adults were shooing them off. Your child is not a distraction from the Kingdom."
+        },
+        {
+          "key": "MAR 10:14",
+          "note": "Moved with indignation, this time, at the ones who would keep children away. The same scene, with the anger left in."
+        },
+        {
+          "key": "ISA 54:13",
+          "note": "Taught by the LORD. Their peace will be great. A promise to hold over a sleeping child."
+        }
       ],
       "pray": "Keep her safe tonight. Keep her well. Let her grow up knowing she is wanted, by us and by you. Teach her the things I will forget to."
     },
@@ -34,11 +46,29 @@
         "Somewhere in the middle, the prayer becomes a prayer for yourself as much as for them: that you would hand on what matters and not just what you are worried about. These verses are about that handing on, and they are honest that it happens in ordinary places."
       ],
       "verses": [
-        {"keys": ["DEU 6:6", "DEU 6:7"], "note": "When you sit, when you walk, when you lie down, when you rise. Faith is handed on in the car and at bedtime, not in lectures."},
-        {"key": "PRO 22:6", "note": "A proverb, not a guarantee. It describes how things tend to go, and it is a reason to keep training even when nothing seems to be taking."},
-        {"key": "PSA 78:4", "note": "Telling the next generation what God has done. Your own answered prayers are the most convincing thing you have to tell them."},
-        {"key": "PRO 29:17", "note": "Correction is part of love, and the verse promises it comes back to you as peace. Eventually."},
-        {"key": "PSA 103:17", "note": "To children's children. The loving kindness you are praying into your child is meant to outlast you both."}
+        {
+          "keys": [
+            "DEU 6:6",
+            "DEU 6:7"
+          ],
+          "note": "When you sit, when you walk, when you lie down, when you rise. Faith is handed on in the car and at bedtime, not in lectures."
+        },
+        {
+          "key": "PRO 22:6",
+          "note": "A proverb, not a guarantee. It describes how things tend to go, and it is a reason to keep training even when nothing seems to be taking."
+        },
+        {
+          "key": "PSA 78:4",
+          "note": "Telling the next generation what God has done. Your own answered prayers are the most convincing thing you have to tell them."
+        },
+        {
+          "key": "PRO 29:17",
+          "note": "Correction is part of love, and the verse promises it comes back to you as peace. Eventually."
+        },
+        {
+          "key": "PSA 103:17",
+          "note": "To children's children. The loving kindness you are praying into your child is meant to outlast you both."
+        }
       ],
       "pray": "Give me wisdom to raise them well. Let the things I say in the car and at bedtime carry more than I know. Correct me when I am correcting them out of fear instead of love. Make your kindness reach their children."
     },
@@ -48,10 +78,22 @@
         "This is the prayer that keeps parents awake in their sixties. A son who does not believe. A daughter who has not called in a year. The verses here do not promise a timeline, but they do describe a Father who runs toward the returning child, and they were written to parents who had watched their children walk away."
       ],
       "verses": [
-        {"key": "LUK 15:20", "note": "While he was still far off. The father was watching the road. He did not wait for the son to arrive before he moved. Pray like that father."},
-        {"key": "JER 31:17", "note": "Written to parents whose children had been carried into exile. Hope for your latter end. They will come again. It was true then."},
-        {"key": "ISA 49:25", "note": "I will contend with him who contends with you, and I will save your children. God takes up the fight for the child you cannot reach."},
-        {"key": "3JO 1:4", "note": "The joy of hearing that your children walk in truth. Write this verse down now, before it is true, so you have it on the day it is."}
+        {
+          "key": "LUK 15:20",
+          "note": "While he was still far off. The father was watching the road. He did not wait for the son to arrive before he moved. Pray like that father."
+        },
+        {
+          "key": "JER 31:17",
+          "note": "Written to parents whose children had been carried into exile. Hope for your latter end. They will come again. It was true then."
+        },
+        {
+          "key": "ISA 49:25",
+          "note": "I will contend with him who contends with you, and I will save your children. God takes up the fight for the child you cannot reach."
+        },
+        {
+          "key": "3JO 1:4",
+          "note": "The joy of hearing that your children walk in truth. Write this verse down now, before it is true, so you have it on the day it is."
+        }
       ],
       "pray": "My son is far from you and far from me. I cannot reach him. You can. Watch the road for him the way that father did. Contend for him where I cannot go. Bring him home, however long it takes, and let me live to see it."
     }
@@ -61,5 +103,6 @@
     "A parent prays for a child over decades, and almost none of it is kept. The prayer for the sick toddler, the prayer before the driving test, the prayer the night they moved out: gone as soon as they are prayed. And then the child comes back, or grows up, or the fever breaks, and there is no record that you asked.",
     "Prayed is built for exactly this. Tag each child as a subject and every prayer for them gathers on one timeline, from the small years to the far-off ones. Each prayer comes back to you at three days, a week, a month, a year and two years, so the prayer from the hospital when they were four is put in front of you when they are six and fine. You can set a rhythm for each child, every day or every week, and their name is the only thing a notification ever shows. Nothing you write leaves your phone.",
     "Write one prayer for each of your children tonight. Put their names in. Date them. Then let them come back."
-  ]
+  ],
+  "ppid": "39b2e552-795c-4022-8349-526a87409eba"
 }
