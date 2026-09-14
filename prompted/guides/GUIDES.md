@@ -12,5 +12,6 @@ holiday-card-sessions-low-light | Holiday card sessions in low light | Family | 
 maternity-prompts-that-respect-the-client | Maternity prompts that respect the client | Maternity | published
 engagement-session-scripts | Engagement session scripts | Engagement | published
 senior-portrait-prompts-not-awkward | Senior portrait prompts that don't feel awkward | Senior | published
+what-to-say-dad-hates-photos | What to say to a dad who hates having his photo taken | Family | published
 
 Rules: every prompt quoted verbatim from dist/guides_data.json with its pose named; images via tools/guide-image.py only.
