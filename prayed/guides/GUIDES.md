@@ -12,5 +12,6 @@ praying-for-your-children | Praying for your children, at every age including th
 bible-verses-of-gratitude | Bible verses of gratitude, and how to keep a record that lasts | Gratitude | published
 how-to-keep-a-prayer-journal | How to keep a prayer journal you will still be using in a year | Practice | published
 bible-verses-for-loneliness | Bible verses for loneliness, for the evenings that are too quiet | Loneliness | published
+bible-verses-for-depression | Bible verses for depression, for the mornings you cannot get up | Depression | published
 
 Rules: every verse comes from tools/prayed/verses.json (extracted from the app's WEB text by tools/prayed-verses.py); sources live in tools/prayed/guides/*.json; render with tools/prayed-guide.py; check with tools/prayed-guide-check.py. No images, no email capture, no invented statistics or testimonials.
