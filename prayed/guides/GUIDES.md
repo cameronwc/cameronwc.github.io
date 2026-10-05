@@ -14,5 +14,6 @@ how-to-keep-a-prayer-journal | How to keep a prayer journal you will still be us
 bible-verses-for-loneliness | Bible verses for loneliness, for the evenings that are too quiet | Loneliness | published
 bible-verses-for-depression | Bible verses for depression, for the mornings you cannot get up | Depression | published
 bible-verses-for-strength | Bible verses for strength, for when you have run out of your own | Strength | published
+bible-verses-for-waiting | Bible verses for waiting, when nothing is happening yet | Waiting | published
 
 Rules: every verse comes from tools/prayed/verses.json (extracted from the app's WEB text by tools/prayed-verses.py); sources live in tools/prayed/guides/*.json; render with tools/prayed-guide.py; check with tools/prayed-guide-check.py. No images, no email capture, no invented statistics or testimonials.
