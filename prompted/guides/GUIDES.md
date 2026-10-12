@@ -15,5 +15,6 @@ senior-portrait-prompts-not-awkward | Senior portrait prompts that don't feel aw
 what-to-say-dad-hates-photos | What to say to a dad who hates having his photo taken | Family | published
 overcast-flat-light-poses | Overcast and flat light: poses and prompts for a grey day | Light | published
 window-light-indoor-poses | Window light indoors: poses and prompts for one good window | Light | published
+couples-who-arent-touchy | Posing a couple who aren't touchy | Couples | published
 
 Rules: every prompt quoted verbatim from dist/guides_data.json with its pose named; images via tools/guide-image.py only.
