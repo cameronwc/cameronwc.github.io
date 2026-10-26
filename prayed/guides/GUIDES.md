@@ -17,5 +17,6 @@ bible-verses-for-strength | Bible verses for strength, for when you have run out
 bible-verses-for-waiting | Bible verses for waiting, when nothing is happening yet | Waiting | published
 bible-verses-for-sleep-and-rest | Bible verses for sleep and rest, for the nights you cannot switch off | Rest | published
 bible-verses-for-money-worry | Bible verses for money worry, for the week the numbers do not work | Provision | published
+bible-verses-for-a-job-search | Bible verses for a job search, and for the work you already have | Work | published
 
 Rules: every verse comes from tools/prayed/verses.json (extracted from the app's WEB text by tools/prayed-verses.py); sources live in tools/prayed/guides/*.json; render with tools/prayed-guide.py; check with tools/prayed-guide-check.py. No images, no email capture, no invented statistics or testimonials.
