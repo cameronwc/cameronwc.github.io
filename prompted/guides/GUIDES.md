@@ -18,5 +18,6 @@ window-light-indoor-poses | Window light indoors: poses and prompts for one good
 couples-who-arent-touchy | Posing a couple who aren't touchy | Couples | published
 baby-poses-parents-hands | Baby posing prompts: where to put the parents' hands | Family | published
 extended-family-of-ten-or-more | Posing an extended family of ten or more | Family | published
+toddlers-who-wont-sit-still | Posing a toddler who won't sit still | Family | published
 
 Rules: every prompt quoted verbatim from dist/guides_data.json with its pose named; images via tools/guide-image.py only.
