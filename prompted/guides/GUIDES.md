@@ -19,5 +19,6 @@ couples-who-arent-touchy | Posing a couple who aren't touchy | Couples | publish
 baby-poses-parents-hands | Baby posing prompts: where to put the parents' hands | Family | published
 extended-family-of-ten-or-more | Posing an extended family of ten or more | Family | published
 toddlers-who-wont-sit-still | Posing a toddler who won't sit still | Family | published
+first-five-minutes-of-a-session | What to say in the first five minutes of any session | Practice | published
 
 Rules: every prompt quoted verbatim from dist/guides_data.json with its pose named; images via tools/guide-image.py only.
