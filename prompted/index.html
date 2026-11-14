@@ -38,6 +38,10 @@
     .callout { background:var(--surface); border:1px solid var(--border); border-left:3px solid var(--amber); border-radius:8px; padding:14px 16px; margin:0 0 16px; }
     .callout p:last-child { margin-bottom:0; }
     .updated { margin-top:48px; padding-top:20px; border-top:1px solid var(--border); color:var(--muted); font-size:14px; }
+    .getapp { display:flex; align-items:center; justify-content:space-between; gap:12px; flex-wrap:wrap; background:var(--amber-dim); border:1px solid var(--border); border-radius:12px; padding:14px 16px; margin:0 0 32px; }
+    .getapp p { margin:0; font-size:15px; }
+    .getapp a.btn { background:var(--amber); color:#1c1c1e; font-weight:600; font-size:15px; padding:8px 14px; border-radius:999px; white-space:nowrap; }
+    .getapp a.btn:hover { text-decoration:none; opacity:.9; }
     @media (max-width:480px) {
       main { padding:32px 20px 64px; }
       h1 { font-size:24px; }
@@ -47,6 +51,10 @@
 </head>
 <body>
   <main>
+    <div class="getapp">
+      <p><strong>Prompted</strong> is a posing app for portrait photographers: poses with the words to say. Free on the App Store.</p>
+      <a class="btn" href="https://apps.apple.com/us/app/id6807112342?ct=share-card&amp;mt=8">Get the app</a>
+    </div>
     <header>
       <img src="logo.png" alt="Prompted logo">
       <div class="title">

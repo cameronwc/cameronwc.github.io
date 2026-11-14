@@ -22,3 +22,16 @@ toddlers-who-wont-sit-still | Posing a toddler who won't sit still | Family | pu
 first-five-minutes-of-a-session | What to say in the first five minutes of any session | Practice | published
 
 Rules: every prompt quoted verbatim from dist/guides_data.json with its pose named; images via tools/guide-image.py only.
+
+## App Store links
+
+Every App Store link carries a campaign token
+`ct=g-<slug>` (body) or `ct=g-<slug>-c` (closing CTA), at most 40 characters:
+truncate the slug, don't drop the `-c`. `assets/prompted-appstore.js` (loaded
+on every Prompted page) prefixes the visitor's utm source and campaign, e.g.
+`pin-text-g-golden-hour-prompts`, so App Store Connect → Analytics →
+Acquisition → Campaigns splits installs by channel.
+
+TODO: add `pt=<provider token>` to every link (App Store Connect → Analytics →
+Acquisition → Campaigns → Generate Campaign Link). Until then, App Store
+Connect does not attribute these `ct` values.

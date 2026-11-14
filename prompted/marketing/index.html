@@ -9,9 +9,11 @@
       var ua = navigator.userAgent || "";
       var ios = /iPhone|iPad|iPod/.test(ua) || (/Macintosh/.test(ua) && navigator.maxTouchPoints > 1);
       if (!ios || /bot|crawl|spider|facebookexternalhit|Twitterbot|Pinterest/i.test(ua)) return;
-      var m = q.match(/[?&]utm_source=([^&]*)/);
-      var src = m ? decodeURIComponent(m[1]).toLowerCase().replace(/[^a-z0-9]+/g, "-").slice(0, 30) : "";
-      var ct = "marketing-site-ios" + (src ? "-" + src : "");
+      var p = new URLSearchParams(q);
+      var clean = function (s) { return (s || "").toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, ""); };
+      var SHORT = { pinterest: "pin", reels: "reel", producthunt: "ph", instagram: "ig", facebook: "fb", threads: "th" };
+      var src = clean(p.get("utm_source")), camp = clean(p.get("utm_campaign"));
+      var ct = src ? (SHORT[src] || src.slice(0, 8)) + (camp && camp !== src ? "-" + camp.slice(0, 10) : "") + "-mkt-ios" : "marketing-site-ios";
       location.replace("https://apps.apple.com/us/app/id6807112342?ct=" + ct + "&mt=8");
     })();
   </script>
@@ -344,5 +346,6 @@
   <script src="../../assets/capture-config.js"></script>
   <script src="../../assets/capture.js" defer></script>
   <script src="../../assets/marketing.js" defer></script>
+  <script src="../../assets/prompted-appstore.js" defer></script>
 </body>
 </html>
